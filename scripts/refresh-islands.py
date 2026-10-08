@@ -3,10 +3,11 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 import hashlib,json,subprocess,os,sys
 ROOT=Path(__file__).resolve().parents[1]
-current='--current-docs' in sys.argv
-model=json.loads((ROOT/('current-docs.json' if current else 'proof-pages.json')).read_text())
+all_docs='--all-docs' in sys.argv
+current=all_docs or '--current-docs' in sys.argv
+model=json.loads((ROOT/('docs-pages.json' if all_docs else 'current-docs.json' if current else 'proof-pages.json')).read_text())
 bundle=json.loads((ROOT/'generated/islands-build.json').read_text())
-cache_file=ROOT/('generated/current-html-island-cache.json' if current else 'generated/html-island-cache.json')
+cache_file=ROOT/('generated/docs-html-island-cache.json' if all_docs else 'generated/current-html-island-cache.json' if current else 'generated/html-island-cache.json')
 cache=json.loads(cache_file.read_text()) if cache_file.exists() else {}
 renderer_key=hashlib.sha256((ROOT/'scripts/render-island-props.mjs').read_bytes()+(ROOT/'scripts/refresh-islands.py').read_bytes()+os.environ.get('NODE_ENV','development').encode()).hexdigest()
 requests=[];work=[]
@@ -42,7 +43,7 @@ for page,key,target,soup,hosts in work:
  if not out.exists() or out.read_text()!=text:out.write_text(text)
  cache[page['source']]={'key':key,'output_hash':hashlib.sha256(text.encode()).hexdigest()}
 cache_file.write_text(json.dumps(cache,indent=2)+'\n')
-model_file=ROOT/('generated/current-docs-compose-pages.json' if current else 'generated/compose-pages.json')
+model_file=ROOT/('generated/docs-compose-pages.json' if all_docs else 'generated/current-docs-compose-pages.json' if current else 'generated/compose-pages.json')
 value=json.dumps(model,indent=2)+'\n'
 if not model_file.exists() or model_file.read_text()!=value:model_file.write_text(value)
 print(json.dumps({'html_pages_refreshed':len(work),'islands_rendered':len(requests),'markdown_renderers':0}))
