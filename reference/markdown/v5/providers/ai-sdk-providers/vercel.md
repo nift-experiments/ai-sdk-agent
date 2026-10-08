@@ -1,0 +1,145 @@
+---
+title: Vercel
+description: "Learn how to use Vercel's v0 models with the AI SDK."
+url: "https://ai-sdk.dev/v5/providers/ai-sdk-providers/vercel"
+docs_index: /llms.txt
+---
+
+> For an index of all documentation, see [/llms.txt](/llms.txt).
+
+The [Vercel](https://vercel.com) provider gives you access to the [v0 API](https://vercel.com/docs/v0/api), designed for building modern web applications. The v0 models support text and image inputs and provide fast streaming responses.
+
+You can create your Vercel API key at [v0.dev](https://v0.dev/chat/settings/keys).
+
+The v0 API is currently in beta and requires a Premium or Team plan with
+usage-based billing enabled. For details, visit the [pricing
+page](https://v0.dev/pricing). To request a higher limit, contact Vercel at
+[support@v0.dev](mailto:support@v0.dev).
+
+## Features
+
+- **Framework aware completions**: Evaluated on modern stacks like Next.js and Vercel
+- **Auto-fix**: Identifies and corrects common coding issues during generation
+- **Quick edit**: Streams inline edits as they're available
+- **Multimodal**: Supports both text and image inputs
+
+## Setup
+
+The Vercel provider is available via the `@ai-sdk/vercel` module. You can install it with:
+
+#### pnpm
+
+```
+pnpm add @ai-sdk/vercel
+```
+
+#### npm
+
+```
+npm install @ai-sdk/vercel
+```
+
+#### yarn
+
+```
+yarn add @ai-sdk/vercel
+```
+
+#### bun
+
+```
+bun add @ai-sdk/vercel
+```
+
+## Provider Instance
+
+You can import the default provider instance `vercel` from `@ai-sdk/vercel`:
+
+```ts
+import { vercel } from '@ai-sdk/vercel';
+```
+
+If you need a customized setup, you can import `createVercel` from `@ai-sdk/vercel` and create a provider instance with your settings:
+
+```ts
+import { createVercel } from '@ai-sdk/vercel';
+
+const vercel = createVercel({
+  apiKey: process.env.VERCEL_API_KEY ?? '',
+});
+```
+
+You can use the following optional settings to customize the Vercel provider instance:
+
+- **baseURL** *string*
+
+  Use a different URL prefix for API calls. The default prefix is `https://api.v0.dev/v1`.
+
+- **apiKey** *string*
+
+  API key that is being sent using the `Authorization` header. It defaults to
+  the `VERCEL_API_KEY` environment variable.
+
+- **headers** *Record\<string,string>*
+
+  Custom headers to include in the requests.
+
+- **fetch** *(input: RequestInfo, init?: RequestInit) => Promise\<Response>*
+
+  Custom [fetch](https://developer.mozilla.org/en-US/docs/Web/API/fetch) implementation.
+  Defaults to the global `fetch` function.
+  You can use it as a middleware to intercept requests,
+  or to provide a custom fetch implementation for e.g. testing.
+
+## Language Models
+
+You can create language models using a provider instance. The first argument is the model ID, for example:
+
+```ts
+import { vercel } from '@ai-sdk/vercel';
+import { generateText } from 'ai';
+
+const { text } = await generateText({
+  model: vercel('v0-1.0-md'),
+  prompt: 'Create a Next.js AI chatbot',
+});
+```
+
+Vercel language models can also be used in the `streamText` function (see [AI SDK Core](/v5/docs/ai-sdk-core)).
+
+## Models
+
+### v0-1.5-md
+
+The `v0-1.5-md` model is for everyday tasks and UI generation.
+
+### v0-1.5-lg
+
+The `v0-1.5-lg` model is for advanced thinking or reasoning.
+
+### v0-1.0-md (legacy)
+
+The `v0-1.0-md` model is the legacy model served by the v0 API.
+
+All v0 models have the following capabilities:
+
+- Supports text and image inputs (multimodal)
+- Supports function/tool calls
+- Streaming responses with low latency
+- Optimized for frontend and full-stack web development
+
+## Model Capabilities
+
+| Model       | Image Input | Object Generation | Tool Usage | Tool Streaming |
+| ----------- | ----------- | ----------------- | ---------- | -------------- |
+| `v0-1.5-md` | ✓           | ✓                 | ✓          | ✓              |
+| `v0-1.5-lg` | ✓           | ✓                 | ✓          | ✓              |
+| `v0-1.0-md` | ✓           | ✓                 | ✓          | ✓              |
+
+---
+
+For a semantic overview of all documentation, see [/sitemap.md](/sitemap.md)
+
+For an index of all available documentation, see [/llms.txt](/llms.txt)
+
+For agent-facing discovery, including API and MCP surfaces, see [/agents.md](/agents.md)

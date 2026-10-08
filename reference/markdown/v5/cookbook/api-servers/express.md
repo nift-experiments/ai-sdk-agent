@@ -1,0 +1,130 @@
+---
+title: Express
+description: Learn how to use the AI SDK in an Express server
+url: "https://ai-sdk.dev/v5/cookbook/api-servers/express"
+docs_index: /llms.txt
+tags:
+  - api servers
+  - streaming
+---
+
+> For an index of all documentation, see [/llms.txt](/llms.txt).
+
+You can use the AI SDK in an [Express](https://expressjs.com/) server to generate and stream text and objects to the client.
+
+## Examples
+
+The examples start a simple HTTP server that listens on port 8080. You can e.g. test it using `curl`:
+
+```bash
+curl -X POST http://localhost:8080
+```
+
+The examples use the Vercel AI Gateway. Ensure that your AI Gateway API key is
+set in the `AI_GATEWAY_API_KEY` environment variable.
+
+**Full example**: [github.com/vercel/ai/examples/express](https://github.com/vercel/ai/tree/main/examples/express)
+
+### UI Message Stream
+
+You can use the `pipeUIMessageStreamToResponse` method to pipe the stream data to the server response.
+
+```ts title='index.ts'
+import { streamText } from 'ai';
+import express, { Request, Response } from 'express';
+
+const app = express();
+
+app.post('/', async (req: Request, res: Response) => {
+  const result = streamText({
+    model: 'openai/gpt-4o',
+    prompt: 'Invent a new holiday and describe its traditions.',
+  });
+
+  result.pipeUIMessageStreamToResponse(res);
+});
+
+app.listen(8080, () => {
+  console.log(`Example app listening on port ${8080}`);
+});
+```
+
+### Sending Custom Data
+
+`pipeUIMessageStreamToResponse` can be used to send custom data to the client.
+
+```ts title='index.ts'
+import {
+  createUIMessageStream,
+  pipeUIMessageStreamToResponse,
+  streamText,
+} from 'ai';
+import express, { Request, Response } from 'express';
+
+const app = express();
+
+app.post('/custom-data-parts', async (req: Request, res: Response) => {
+  pipeUIMessageStreamToResponse({
+    response: res,
+    stream: createUIMessageStream({
+      execute: async ({ writer }) => {
+        writer.write({ type: 'start' });
+
+        writer.write({
+          type: 'data-custom',
+          data: {
+            custom: 'Hello, world!',
+          },
+        });
+
+        const result = streamText({
+          model: 'openai/gpt-4o',
+          prompt: 'Invent a new holiday and describe its traditions.',
+        });
+
+        writer.merge(result.toUIMessageStream({ sendStart: false }));
+      },
+    }),
+  });
+});
+
+app.listen(8080, () => {
+  console.log(`Example app listening on port ${8080}`);
+});
+```
+
+### Text Stream
+
+You can send a text stream to the client using `pipeTextStreamToResponse`.
+
+```ts title='index.ts'
+import { streamText } from 'ai';
+import express, { Request, Response } from 'express';
+
+const app = express();
+
+app.post('/', async (req: Request, res: Response) => {
+  const result = streamText({
+    model: 'openai/gpt-4o',
+    prompt: 'Invent a new holiday and describe its traditions.',
+  });
+
+  result.pipeTextStreamToResponse(res);
+});
+
+app.listen(8080, () => {
+  console.log(`Example app listening on port ${8080}`);
+});
+```
+
+## Troubleshooting
+
+- Streaming not working when [proxied](/v5/docs/troubleshooting/streaming-not-working-when-proxied)
+
+---
+
+For a semantic overview of all documentation, see [/sitemap.md](/sitemap.md)
+
+For an index of all available documentation, see [/llms.txt](/llms.txt)
+
+For agent-facing discovery, including API and MCP surfaces, see [/agents.md](/agents.md)

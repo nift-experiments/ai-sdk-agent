@@ -1,0 +1,58 @@
+[
+  {
+    "route": "/llms.txt",
+    "file": "generated/discovery/llms.txt",
+    "headers": {
+      "content-type": "text/markdown; charset=utf-8"
+    },
+    "source": "reference/discovery/llms.txt"
+  },
+  {
+    "route": "/sitemap.md",
+    "file": "generated/discovery/sitemap.md",
+    "headers": {
+      "content-type": "text/markdown"
+    },
+    "source": "reference/discovery/sitemap.md"
+  },
+  {
+    "route": "/v6/llms.txt",
+    "file": "generated/discovery/v6/llms.txt",
+    "headers": {
+      "content-type": "text/markdown; charset=utf-8"
+    },
+    "source": "reference/discovery/v6/llms.txt"
+  },
+  {
+    "route": "/v6/sitemap.md",
+    "file": "generated/discovery/v6/sitemap.md",
+    "headers": {
+      "content-type": "text/markdown"
+    },
+    "source": "reference/discovery/v6/sitemap.md"
+  },
+  {
+    "route": "/v5/llms.txt",
+    "file": "generated/discovery/v5/llms.txt",
+    "headers": {
+      "content-type": "text/markdown; charset=utf-8"
+    },
+    "source": "reference/discovery/v5/llms.txt"
+  },
+  {
+    "route": "/v5/sitemap.md",
+    "file": "generated/discovery/v5/sitemap.md",
+    "headers": {
+      "content-type": "text/markdown"
+    },
+    "source": "reference/discovery/v5/sitemap.md"
+  },
+  {
+    "route": "/agents.md",
+    "file": "generated/discovery/agents.md",
+    "headers": {
+      "content-type": "text/markdown; charset=utf-8"
+    },
+    "source": "reference/discovery/agents.md"
+  }
+]

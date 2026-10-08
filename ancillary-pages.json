@@ -1,0 +1,814 @@
+[
+  {
+    "route": "/",
+    "name": "index",
+    "body": "rendered/ancillary/index.html",
+    "source": "rendered/ancillary/index.html",
+    "metadata": {
+      "title": {
+        "absolute": "AI SDK"
+      },
+      "description": "A unified TypeScript SDK for building AI apps with modern streaming, fallbacks, and multi-model support\u2014powered by Vercel.",
+      "alternates": {
+        "canonical": "/"
+      },
+      "openGraph": {
+        "title": "AI SDK",
+        "images": [
+          "https://e742qlubrjnjqpp0.public.blob.vercel-storage.com/og.png"
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources",
+    "name": "resources/index",
+    "body": "rendered/ancillary/resources/index.html",
+    "source": "rendered/ancillary/resources/index.html",
+    "metadata": {
+      "alternates": {
+        "canonical": "/resources"
+      },
+      "title": "AI SDK Resources",
+      "description": "Explore AI SDK recipes, tools, templates, and products from Vercel and the community.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "AI SDK Resources",
+        "description": "Explore AI SDK recipes, tools, templates, and products from Vercel and the community.",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Resources&description=Explore%20AI%20SDK%20recipes%2C%20tools%2C%20templates%2C%20and%20products%20from%20Vercel%20and%20the%20community."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Resources&description=Explore%20AI%20SDK%20recipes%2C%20tools%2C%20templates%2C%20and%20products%20from%20Vercel%20and%20the%20community."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools",
+    "name": "resources/tools/index",
+    "body": "rendered/ancillary/resources/tools/index.html",
+    "source": "rendered/ancillary/resources/tools/index.html",
+    "metadata": {
+      "alternates": {
+        "canonical": "/resources/tools"
+      },
+      "title": "AI SDK Tools Registry",
+      "description": "Add powerful functionality to your agents with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "AI SDK Tools Registry",
+        "description": "Add powerful functionality to your agents with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Tools%20Registry&description=Add%20powerful%20functionality%20to%20your%20agents%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Tools%20Registry&description=Add%20powerful%20functionality%20to%20your%20agents%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/templates",
+    "name": "resources/templates/index",
+    "body": "rendered/ancillary/resources/templates/index.html",
+    "source": "rendered/ancillary/resources/templates/index.html",
+    "metadata": {
+      "alternates": {
+        "canonical": "/resources/templates"
+      },
+      "title": "AI SDK Templates",
+      "description": "Official app templates, examples, and framework integrations built with the AI SDK.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "AI SDK Templates",
+        "description": "Official app templates, examples, and framework integrations built with the AI SDK.",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Templates&description=Official%20app%20templates%2C%20examples%2C%20and%20framework%20integrations%20built%20with%20the%20AI%20SDK."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Templates&description=Official%20app%20templates%2C%20examples%2C%20and%20framework%20integrations%20built%20with%20the%20AI%20SDK."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/showcase",
+    "name": "resources/showcase/index",
+    "body": "rendered/ancillary/resources/showcase/index.html",
+    "source": "rendered/ancillary/resources/showcase/index.html",
+    "metadata": {
+      "alternates": {
+        "canonical": "/resources/showcase"
+      },
+      "title": "AI SDK Showcase",
+      "description": "Popular products and projects built with the AI SDK.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "AI SDK Showcase",
+        "description": "Popular products and projects built with the AI SDK.",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Showcase&description=Popular%20products%20and%20projects%20built%20with%20the%20AI%20SDK."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Showcase&description=Popular%20products%20and%20projects%20built%20with%20the%20AI%20SDK."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/unauthenticated-ai-gateway",
+    "name": "unauthenticated-ai-gateway/index",
+    "body": "rendered/ancillary/unauthenticated-ai-gateway/index.html",
+    "source": "rendered/ancillary/unauthenticated-ai-gateway/index.html",
+    "metadata": {
+      "title": "Get your API key",
+      "description": "Connect the AI SDK to AI Gateway or configure a dedicated model provider."
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/playground-recovery",
+    "name": "playground-recovery/index",
+    "body": "rendered/ancillary/playground-recovery/index.html",
+    "source": "rendered/ancillary/playground-recovery/index.html",
+    "metadata": {
+      "title": "Recover your playground settings",
+      "robots": {
+        "index": false,
+        "follow": false
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/code-execution",
+    "name": "resources/tools/code-execution/index",
+    "body": "rendered/ancillary/resources/tools/code-execution/index.html",
+    "source": "rendered/ancillary/resources/tools/code-execution/index.html",
+    "metadata": {
+      "title": "Code Execution",
+      "description": "Use the Code Execution tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Code Execution",
+        "description": "Use the Code Execution tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Code%20Execution&description=Use%20the%20Code%20Execution%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Code%20Execution&description=Use%20the%20Code%20Execution%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/exa",
+    "name": "resources/tools/exa/index",
+    "body": "rendered/ancillary/resources/tools/exa/index.html",
+    "source": "rendered/ancillary/resources/tools/exa/index.html",
+    "metadata": {
+      "title": "Exa",
+      "description": "Use the Exa tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Exa",
+        "description": "Use the Exa tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Exa&description=Use%20the%20Exa%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Exa&description=Use%20the%20Exa%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/parallel",
+    "name": "resources/tools/parallel/index",
+    "body": "rendered/ancillary/resources/tools/parallel/index.html",
+    "source": "rendered/ancillary/resources/tools/parallel/index.html",
+    "metadata": {
+      "title": "Parallel",
+      "description": "Use the Parallel tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Parallel",
+        "description": "Use the Parallel tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Parallel&description=Use%20the%20Parallel%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Parallel&description=Use%20the%20Parallel%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/ctx-zip",
+    "name": "resources/tools/ctx-zip/index",
+    "body": "rendered/ancillary/resources/tools/ctx-zip/index.html",
+    "source": "rendered/ancillary/resources/tools/ctx-zip/index.html",
+    "metadata": {
+      "title": "ctx-zip",
+      "description": "Use the ctx-zip tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "ctx-zip",
+        "description": "Use the ctx-zip tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=ctx-zip&description=Use%20the%20ctx-zip%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=ctx-zip&description=Use%20the%20ctx-zip%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/perplexity-search",
+    "name": "resources/tools/perplexity-search/index",
+    "body": "rendered/ancillary/resources/tools/perplexity-search/index.html",
+    "source": "rendered/ancillary/resources/tools/perplexity-search/index.html",
+    "metadata": {
+      "title": "Perplexity Search",
+      "description": "Use the Perplexity Search tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Perplexity Search",
+        "description": "Use the Perplexity Search tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Perplexity%20Search&description=Use%20the%20Perplexity%20Search%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Perplexity%20Search&description=Use%20the%20Perplexity%20Search%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/tavily",
+    "name": "resources/tools/tavily/index",
+    "body": "rendered/ancillary/resources/tools/tavily/index.html",
+    "source": "rendered/ancillary/resources/tools/tavily/index.html",
+    "metadata": {
+      "title": "Tavily",
+      "description": "Use the Tavily tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Tavily",
+        "description": "Use the Tavily tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Tavily&description=Use%20the%20Tavily%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Tavily&description=Use%20the%20Tavily%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/firecrawl",
+    "name": "resources/tools/firecrawl/index",
+    "body": "rendered/ancillary/resources/tools/firecrawl/index.html",
+    "source": "rendered/ancillary/resources/tools/firecrawl/index.html",
+    "metadata": {
+      "title": "Firecrawl",
+      "description": "Use the Firecrawl tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Firecrawl",
+        "description": "Use the Firecrawl tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Firecrawl&description=Use%20the%20Firecrawl%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Firecrawl&description=Use%20the%20Firecrawl%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/bedrock-agentcore",
+    "name": "resources/tools/bedrock-agentcore/index",
+    "body": "rendered/ancillary/resources/tools/bedrock-agentcore/index.html",
+    "source": "rendered/ancillary/resources/tools/bedrock-agentcore/index.html",
+    "metadata": {
+      "title": "Amazon Bedrock AgentCore",
+      "description": "Use the Amazon Bedrock AgentCore tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Amazon Bedrock AgentCore",
+        "description": "Use the Amazon Bedrock AgentCore tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Amazon%20Bedrock%20AgentCore&description=Use%20the%20Amazon%20Bedrock%20AgentCore%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Amazon%20Bedrock%20AgentCore&description=Use%20the%20Amazon%20Bedrock%20AgentCore%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/superagent",
+    "name": "resources/tools/superagent/index",
+    "body": "rendered/ancillary/resources/tools/superagent/index.html",
+    "source": "rendered/ancillary/resources/tools/superagent/index.html",
+    "metadata": {
+      "title": "Superagent",
+      "description": "Use the Superagent tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Superagent",
+        "description": "Use the Superagent tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Superagent&description=Use%20the%20Superagent%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Superagent&description=Use%20the%20Superagent%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/tako-search",
+    "name": "resources/tools/tako-search/index",
+    "body": "rendered/ancillary/resources/tools/tako-search/index.html",
+    "source": "rendered/ancillary/resources/tools/tako-search/index.html",
+    "metadata": {
+      "title": "Tako Search",
+      "description": "Use the Tako Search tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Tako Search",
+        "description": "Use the Tako Search tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Tako%20Search&description=Use%20the%20Tako%20Search%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Tako%20Search&description=Use%20the%20Tako%20Search%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/valyu",
+    "name": "resources/tools/valyu/index",
+    "body": "rendered/ancillary/resources/tools/valyu/index.html",
+    "source": "rendered/ancillary/resources/tools/valyu/index.html",
+    "metadata": {
+      "title": "Valyu",
+      "description": "Use the Valyu tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Valyu",
+        "description": "Use the Valyu tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Valyu&description=Use%20the%20Valyu%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Valyu&description=Use%20the%20Valyu%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/airweave",
+    "name": "resources/tools/airweave/index",
+    "body": "rendered/ancillary/resources/tools/airweave/index.html",
+    "source": "rendered/ancillary/resources/tools/airweave/index.html",
+    "metadata": {
+      "title": "Airweave",
+      "description": "Use the Airweave tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Airweave",
+        "description": "Use the Airweave tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Airweave&description=Use%20the%20Airweave%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Airweave&description=Use%20the%20Airweave%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/bash-tool",
+    "name": "resources/tools/bash-tool/index",
+    "body": "rendered/ancillary/resources/tools/bash-tool/index.html",
+    "source": "rendered/ancillary/resources/tools/bash-tool/index.html",
+    "metadata": {
+      "title": "bash-tool",
+      "description": "Use the bash-tool tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "bash-tool",
+        "description": "Use the bash-tool tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=bash-tool&description=Use%20the%20bash-tool%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=bash-tool&description=Use%20the%20bash-tool%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/browserbase",
+    "name": "resources/tools/browserbase/index",
+    "body": "rendered/ancillary/resources/tools/browserbase/index.html",
+    "source": "rendered/ancillary/resources/tools/browserbase/index.html",
+    "metadata": {
+      "title": "Browserbase",
+      "description": "Use the Browserbase tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Browserbase",
+        "description": "Use the Browserbase tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Browserbase&description=Use%20the%20Browserbase%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Browserbase&description=Use%20the%20Browserbase%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/you-search",
+    "name": "resources/tools/you-search/index",
+    "body": "rendered/ancillary/resources/tools/you-search/index.html",
+    "source": "rendered/ancillary/resources/tools/you-search/index.html",
+    "metadata": {
+      "title": "You.com",
+      "description": "Use the You.com tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "You.com",
+        "description": "Use the You.com tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=You.com&description=Use%20the%20You.com%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=You.com&description=Use%20the%20You.com%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/nitrosend",
+    "name": "resources/tools/nitrosend/index",
+    "body": "rendered/ancillary/resources/tools/nitrosend/index.html",
+    "source": "rendered/ancillary/resources/tools/nitrosend/index.html",
+    "metadata": {
+      "title": "Nitrosend",
+      "description": "Use the Nitrosend tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Nitrosend",
+        "description": "Use the Nitrosend tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Nitrosend&description=Use%20the%20Nitrosend%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Nitrosend&description=Use%20the%20Nitrosend%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/fatstack",
+    "name": "resources/tools/fatstack/index",
+    "body": "rendered/ancillary/resources/tools/fatstack/index.html",
+    "source": "rendered/ancillary/resources/tools/fatstack/index.html",
+    "metadata": {
+      "title": "Fatstack",
+      "description": "Use the Fatstack tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Fatstack",
+        "description": "Use the Fatstack tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Fatstack&description=Use%20the%20Fatstack%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Fatstack&description=Use%20the%20Fatstack%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/pushary",
+    "name": "resources/tools/pushary/index",
+    "body": "rendered/ancillary/resources/tools/pushary/index.html",
+    "source": "rendered/ancillary/resources/tools/pushary/index.html",
+    "metadata": {
+      "title": "Pushary",
+      "description": "Use the Pushary tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Pushary",
+        "description": "Use the Pushary tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Pushary&description=Use%20the%20Pushary%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Pushary&description=Use%20the%20Pushary%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/tools/pexafy",
+    "name": "resources/tools/pexafy/index",
+    "body": "rendered/ancillary/resources/tools/pexafy/index.html",
+    "source": "rendered/ancillary/resources/tools/pexafy/index.html",
+    "metadata": {
+      "title": "Pexafy",
+      "description": "Use the Pexafy tool in your AI SDK agent with just a few lines of code.",
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "Pexafy",
+        "description": "Use the Pexafy tool in your AI SDK agent with just a few lines of code.",
+        "images": [
+          {
+            "url": "/og/docs?title=Pexafy&description=Use%20the%20Pexafy%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=Pexafy&description=Use%20the%20Pexafy%20tool%20in%20your%20AI%20SDK%20agent%20with%20just%20a%20few%20lines%20of%20code."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/resources/recipes",
+    "name": "resources/recipes/index",
+    "body": "rendered/ancillary/resources/recipes/index.html",
+    "source": "rendered/ancillary/resources/recipes/index.html",
+    "metadata": {
+      "title": "AI SDK Recipes",
+      "description": "Open-source recipes, guides, and examples for building with the AI SDK.",
+      "alternates": {
+        "canonical": "/resources/recipes"
+      },
+      "openGraph": {
+        "siteName": "AI SDK",
+        "type": "website",
+        "title": "AI SDK Recipes",
+        "description": "Open-source recipes, guides, and examples for building with the AI SDK.",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Recipes&description=Open-source%20recipes%2C%20guides%2C%20and%20examples%20for%20building%20with%20the%20AI%20SDK."
+          }
+        ]
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "images": [
+          {
+            "url": "/og/docs?title=AI%20SDK%20Recipes&description=Open-source%20recipes%2C%20guides%2C%20and%20examples%20for%20building%20with%20the%20AI%20SDK."
+          }
+        ]
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/v6/resources/recipes",
+    "name": "v6/resources/recipes/index",
+    "body": "rendered/ancillary/v6/resources/recipes/index.html",
+    "source": "rendered/ancillary/v6/resources/recipes/index.html",
+    "metadata": {
+      "title": "AI SDK Recipes",
+      "description": "Open-source recipes, guides, and examples for building with the AI SDK.",
+      "robots": {
+        "index": false,
+        "follow": true
+      }
+    },
+    "layout": "global"
+  },
+  {
+    "route": "/v5/resources/recipes",
+    "name": "v5/resources/recipes/index",
+    "body": "rendered/ancillary/v5/resources/recipes/index.html",
+    "source": "rendered/ancillary/v5/resources/recipes/index.html",
+    "metadata": {
+      "title": "AI SDK Recipes",
+      "description": "Open-source recipes, guides, and examples for building with the AI SDK.",
+      "robots": {
+        "index": false,
+        "follow": true
+      }
+    },
+    "layout": "global"
+  }
+]

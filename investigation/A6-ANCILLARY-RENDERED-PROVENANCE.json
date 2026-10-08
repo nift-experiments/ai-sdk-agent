@@ -1,0 +1,118 @@
+[
+  {
+    "file": "rendered/ancillary/index.html",
+    "sha256": "91dcee18aea5ddef8bba2f7527f429c4e2189cf2b86d3921b61181fff656ed56"
+  },
+  {
+    "file": "rendered/ancillary/playground-recovery/index.html",
+    "sha256": "fcd7a3f28b098917bc7c9df9e698e16d67d57325b48fc366867494a8ccb00d6c"
+  },
+  {
+    "file": "rendered/ancillary/resources/index.html",
+    "sha256": "c6577b1dd9d2ba4df5916ee0a15fccf0f67613afe2b39226712d25c2e63719a6"
+  },
+  {
+    "file": "rendered/ancillary/resources/recipes/index.html",
+    "sha256": "da881c2261ff8472f70264e78d221b03c2a660a49e079ebb194cbb5900cdb6bf"
+  },
+  {
+    "file": "rendered/ancillary/resources/showcase/index.html",
+    "sha256": "1afaaff6abffee11c7eea5c076c70fcedbf2ee3fb10526bdf28377f5f5e735e8"
+  },
+  {
+    "file": "rendered/ancillary/resources/templates/index.html",
+    "sha256": "65c8bf4376f4431c6fb5b7dcc5868ca42ceb1d5740a0a1b33377c96d2c54ada3"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/airweave/index.html",
+    "sha256": "68c4027d22a6d741b9a7710946c9916627d92322a39395ae12737241ee8f62ee"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/bash-tool/index.html",
+    "sha256": "ae62f153e5e315589ee0a3c9f2b870fed8a089122bafc5b6686fb59ab7bdfdbc"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/bedrock-agentcore/index.html",
+    "sha256": "77dba3b05b8c2be375968d51a398e4e294dcca0dd08784a7f606ea17d3745cc5"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/browserbase/index.html",
+    "sha256": "b78173e824282afa1f090a80d71e5f65a6d0290aa8f83dc960ceb4aae172ec27"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/code-execution/index.html",
+    "sha256": "3bcec1434b22fee204c1e7725d81c9add63785479178d29908c850a322277c4f"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/ctx-zip/index.html",
+    "sha256": "ef711e77f23248119ec67a1fba0d6415336f512017d897e91d4e4ff6433ef245"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/exa/index.html",
+    "sha256": "857d5c4ffc91d69d4c1b327f6fc1dd8bc4bae90bdfd6699bbde7cc74b3e7ecfa"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/fatstack/index.html",
+    "sha256": "daf844926175b3337a6988b9b9555ca31fd26a0bf710aec043925e12b1c35165"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/firecrawl/index.html",
+    "sha256": "b517d0de3a9687e220edfa7cc71b908d3cc8699750268a1312c8f75edd095010"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/index.html",
+    "sha256": "016f5eee9f08fb8687db17ef2f1505b5460f0c10b851fb42209c0a5549c2af70"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/nitrosend/index.html",
+    "sha256": "5fc25bf270abbc386e7b7d6d79bf11349f7d6495f0a5c3789e783a622f2fa18f"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/parallel/index.html",
+    "sha256": "50b06acce63978f66355d72a2a0e9d6872f54f6d8ba719208a6ee51ec7852f5c"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/perplexity-search/index.html",
+    "sha256": "1d509ea456d350f0e9391768686d8f60b05492eb7ad940eb4cb57fbf6e48db9c"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/pexafy/index.html",
+    "sha256": "d697a20131c49fbfb81d7dba52879e809a502dd404573bcd7d48a583ea7fa065"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/pushary/index.html",
+    "sha256": "2e76d6385bdb5c1a22fe09c26dc93dcb06dec13bcfea01c84d79f7d059661c39"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/superagent/index.html",
+    "sha256": "499d643188a62ad3f4b177cc942794e3d9578e1df31917a112c377bfebf71033"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/tako-search/index.html",
+    "sha256": "5fbd5fc1eec68ec051efab486933dd1d724387b08d3ddb7b306058382fc1e2fa"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/tavily/index.html",
+    "sha256": "bbef17a1b76bdf25d6fc7c8a4ac2eacf35c07a311a843a8926c3c78fca897fb9"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/valyu/index.html",
+    "sha256": "95b822f6cd2601509c87ace5978b8105b2b5ecee6fce3135bd237af20bf56023"
+  },
+  {
+    "file": "rendered/ancillary/resources/tools/you-search/index.html",
+    "sha256": "24a2abbd4c2dfca9004377338a2d3a92373866aac7d37f068de70b8830f12b58"
+  },
+  {
+    "file": "rendered/ancillary/unauthenticated-ai-gateway/index.html",
+    "sha256": "4fa7d7e0630e7eca0c0220191f5c6cc29cade3531897e2adb1dc1f9513a2f517"
+  },
+  {
+    "file": "rendered/ancillary/v5/resources/recipes/index.html",
+    "sha256": "1084758a06e0e47fb37e844587ee61588121748f54e33d0341eb0068c66e4e43"
+  },
+  {
+    "file": "rendered/ancillary/v6/resources/recipes/index.html",
+    "sha256": "dd361db6cef2e75d2466b7aba9983c548a881b8424dddaa241d8639b54b613fe"
+  }
+]
