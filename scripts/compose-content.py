@@ -38,7 +38,9 @@ for page in model:
   else:values+='<meta name="robots" content="noindex, follow"/>'
   prefix=head.replace('__AI_METADATA__',values)+prefix
   suffix+='<script type="module" src="'+entry+'"></script><script src="/assets/body-controls.js" defer></script></body></html>'
-  extra=['templates/document-head.html','generated/chrome-build.json',*(['content-pages.json','content-navigation.json'] if not (root/'authored').exists() else [])]
+  # Metadata/navigation are materialized in the per-page prefix/suffix below.
+  # Global model dependencies would rebuild unrelated prepared documents.
+  extra=['templates/document-head.html','generated/chrome-build.json']
  elif page.get('layout')=='global':
   meta=page['metadata'];title=meta['title'].get('absolute') if isinstance(meta['title'],dict) else str(meta['title'])+' | AI SDK';description=meta.get('description','The TypeScript toolkit for building AI applications and agents.')
   values='<title>'+html.escape(title)+'</title>'

@@ -1,0 +1,37 @@
+[
+  {
+    "project": "ai-sdk-agent",
+    "case": "corrupt generated artifact",
+    "target": "public/assets/islands/entry-ZEYD5DZB.js",
+    "restored_publication": true,
+    "restored_artifact": true
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "corrupt generated artifact",
+    "target": "generated/island-server.cjs",
+    "restored_publication": true,
+    "restored_artifact": true
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "corrupt generated artifact",
+    "target": "generated/html/docs/introduction/index.html",
+    "restored_publication": true,
+    "restored_artifact": true
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "corrupt generated artifact",
+    "target": "generated/content-shells/docs/introduction/index.json",
+    "restored_publication": true,
+    "restored_artifact": true
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "corrupt generated artifact",
+    "target": "generated/search/v7-database.json",
+    "restored_publication": true,
+    "restored_artifact": true
+  }
+]

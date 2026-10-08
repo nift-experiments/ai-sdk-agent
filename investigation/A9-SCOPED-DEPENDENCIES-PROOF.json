@@ -1,0 +1,6 @@
+{
+  "files": 3219,
+  "public_and_runtime_byte_identical": true,
+  "differences": [],
+  "change": "Scoped agent composition dependencies; maintained inputs restored after lifecycle verification."
+}
