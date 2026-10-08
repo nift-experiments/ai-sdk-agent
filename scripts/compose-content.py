@@ -8,8 +8,9 @@ def changed(file,value):
 def raw(file):return '@dep('+json.dumps(file)+')$[rawHtml('+json.dumps(file)+')]'
 start=time.perf_counter()
 current=json.loads((root/'generated/content-pages.json').read_text())
-base=json.loads((root/('proof-pages.json' if (root/'authored').exists() else 'generated/compose-pages.json')).read_text())
-model=current+[page for page in base if page['route'] not in {x['route'] for x in current}]
+# The complete prepared publication already includes ancillary pages and aliases.
+# Do not depend on generated products of earlier prototype build commands.
+model=current
 islands=json.loads((root/'generated/islands-build.json').read_text());entry='/'+islands['entry'].removeprefix('public/')
 head=(root/'templates/document-head.html').read_text()
 head=head.replace('</head>',''.join('<link rel="stylesheet" href="/'+file.removeprefix('public/')+'"/>' for file in islands['outputs'] if file.endswith('.css'))+'</head>')
