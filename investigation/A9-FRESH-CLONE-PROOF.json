@@ -1,0 +1,8 @@
+{
+  "project": "ai-sdk-agent",
+  "head": "146a67c853ba367b15e90fa6feaa33f47bf440d0",
+  "public_runtime_files": 3219,
+  "differences": [],
+  "fresh_clone_publication_byte_equal": true,
+  "clean_after_build": true
+}
