@@ -1,0 +1,3075 @@
+{
+  "$id": "en",
+  "name": "Docs",
+  "children": [
+    {
+      "type": "folder",
+      "name": "AI SDK by Vercel",
+      "index": {
+        "$id": "en:introduction/index.mdx",
+        "type": "page",
+        "name": "AI SDK by Vercel",
+        "description": "The AI SDK is the TypeScript toolkit for building AI applications and agents with React, Next.js, Vue, Svelte, Node.js, and more.",
+        "url": "/docs/introduction",
+        "$ref": {
+          "file": "introduction/index.mdx"
+        }
+      },
+      "children": [],
+      "$id": "en:introduction",
+      "$ref": {
+        "metaFile": "introduction/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "Foundations",
+      "children": [
+        {
+          "$id": "en:foundations/overview.mdx",
+          "type": "page",
+          "name": "Overview",
+          "description": "An overview of foundational concepts critical to understanding the AI SDK",
+          "url": "/docs/foundations/overview",
+          "$ref": {
+            "file": "foundations/overview.mdx"
+          }
+        },
+        {
+          "$id": "en:foundations/providers-and-models.mdx",
+          "type": "page",
+          "name": "Providers and Models",
+          "description": "Learn about the providers and models available in the AI SDK.",
+          "url": "/docs/foundations/providers-and-models",
+          "$ref": {
+            "file": "foundations/providers-and-models.mdx"
+          }
+        },
+        {
+          "$id": "en:foundations/prompts.mdx",
+          "type": "page",
+          "name": "Prompts",
+          "description": "Learn about the Prompt structure used in the AI SDK.",
+          "url": "/docs/foundations/prompts",
+          "$ref": {
+            "file": "foundations/prompts.mdx"
+          }
+        },
+        {
+          "$id": "en:foundations/tools.mdx",
+          "type": "page",
+          "name": "Tools",
+          "description": "Learn about tools with the AI SDK.",
+          "url": "/docs/foundations/tools",
+          "$ref": {
+            "file": "foundations/tools.mdx"
+          }
+        },
+        {
+          "$id": "en:foundations/streaming.mdx",
+          "type": "page",
+          "name": "Streaming",
+          "description": "Why use streaming for AI applications?",
+          "url": "/docs/foundations/streaming",
+          "$ref": {
+            "file": "foundations/streaming.mdx"
+          }
+        },
+        {
+          "$id": "en:foundations/provider-options.mdx",
+          "type": "page",
+          "name": "Provider Options",
+          "description": "Learn how to use provider-specific options to control reasoning, caching, and other advanced features.",
+          "url": "/docs/foundations/provider-options",
+          "$ref": {
+            "file": "foundations/provider-options.mdx"
+          }
+        }
+      ],
+      "$id": "en:foundations",
+      "$ref": {
+        "metaFile": "foundations/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "Getting Started",
+      "index": {
+        "$id": "en:getting-started/index.mdx",
+        "type": "page",
+        "name": "Getting Started",
+        "description": "Welcome to the AI SDK documentation!",
+        "url": "/docs/getting-started",
+        "$ref": {
+          "file": "getting-started/index.mdx"
+        }
+      },
+      "children": [
+        {
+          "$id": "en:getting-started/choosing-a-provider.mdx",
+          "type": "page",
+          "name": "Choosing a Provider",
+          "description": "Learn how to configure and authenticate with AI providers in the AI SDK.",
+          "url": "/docs/getting-started/choosing-a-provider",
+          "$ref": {
+            "file": "getting-started/choosing-a-provider.mdx"
+          }
+        },
+        {
+          "$id": "en:getting-started/navigating-the-library.mdx",
+          "type": "page",
+          "name": "Navigating the Library",
+          "description": "Learn how to navigate the AI SDK.",
+          "url": "/docs/getting-started/navigating-the-library",
+          "$ref": {
+            "file": "getting-started/navigating-the-library.mdx"
+          }
+        },
+        {
+          "$id": "en:getting-started/nextjs-app-router.mdx",
+          "type": "page",
+          "name": "Next.js App Router",
+          "description": "Learn how to build your first agent with the AI SDK and Next.js App Router.",
+          "url": "/docs/getting-started/nextjs-app-router",
+          "$ref": {
+            "file": "getting-started/nextjs-app-router.mdx"
+          }
+        },
+        {
+          "$id": "en:getting-started/nextjs-pages-router.mdx",
+          "type": "page",
+          "name": "Next.js Pages Router",
+          "description": "Learn how to build your first agent with the AI SDK and Next.js Pages Router.",
+          "url": "/docs/getting-started/nextjs-pages-router",
+          "$ref": {
+            "file": "getting-started/nextjs-pages-router.mdx"
+          }
+        },
+        {
+          "$id": "en:getting-started/svelte.mdx",
+          "type": "page",
+          "name": "Svelte",
+          "description": "Learn how to build your first agent with the AI SDK and Svelte.",
+          "url": "/docs/getting-started/svelte",
+          "$ref": {
+            "file": "getting-started/svelte.mdx"
+          }
+        },
+        {
+          "$id": "en:getting-started/nuxt.mdx",
+          "type": "page",
+          "name": "Vue.js (Nuxt)",
+          "description": "Learn how to build your first agent with the AI SDK and Vue.js (Nuxt).",
+          "url": "/docs/getting-started/nuxt",
+          "$ref": {
+            "file": "getting-started/nuxt.mdx"
+          }
+        },
+        {
+          "$id": "en:getting-started/nodejs.mdx",
+          "type": "page",
+          "name": "Node.js",
+          "description": "Learn how to build your first agent with the AI SDK and Node.js.",
+          "url": "/docs/getting-started/nodejs",
+          "$ref": {
+            "file": "getting-started/nodejs.mdx"
+          }
+        },
+        {
+          "$id": "en:getting-started/expo.mdx",
+          "type": "page",
+          "name": "Expo",
+          "description": "Learn how to build your first agent with the AI SDK and Expo.",
+          "url": "/docs/getting-started/expo",
+          "$ref": {
+            "file": "getting-started/expo.mdx"
+          }
+        },
+        {
+          "$id": "en:getting-started/tanstack-start.mdx",
+          "type": "page",
+          "name": "TanStack Start",
+          "description": "Learn how to build your first agent with the AI SDK and TanStack Start.",
+          "url": "/docs/getting-started/tanstack-start",
+          "$ref": {
+            "file": "getting-started/tanstack-start.mdx"
+          }
+        },
+        {
+          "$id": "en:getting-started/coding-agents.mdx",
+          "type": "page",
+          "name": "Coding Agents",
+          "description": "Learn how to set up the AI SDK for use with coding agents, including installing skills, accessing bundled docs, and using DevTools.",
+          "url": "/docs/getting-started/coding-agents",
+          "$ref": {
+            "file": "getting-started/coding-agents.mdx"
+          }
+        }
+      ],
+      "$id": "en:getting-started",
+      "$ref": {
+        "metaFile": "getting-started/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "Agents",
+      "children": [
+        {
+          "$id": "en:agents/overview.mdx",
+          "type": "page",
+          "name": "Overview",
+          "description": "Learn how to build agents with the AI SDK.",
+          "url": "/docs/agents/overview",
+          "$ref": {
+            "file": "agents/overview.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/building-agents.mdx",
+          "type": "page",
+          "name": "Building Agents",
+          "description": "Complete guide to creating agents with the ToolLoopAgent.",
+          "url": "/docs/agents/building-agents",
+          "$ref": {
+            "file": "agents/building-agents.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/workflows.mdx",
+          "type": "page",
+          "name": "Workflow Patterns",
+          "description": "Learn workflow patterns for building reliable agents with the AI SDK.",
+          "url": "/docs/agents/workflows",
+          "$ref": {
+            "file": "agents/workflows.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/loop-control.mdx",
+          "type": "page",
+          "name": "Loop Control",
+          "description": "Control agent execution with built-in loop management using stopWhen and prepareStep",
+          "url": "/docs/agents/loop-control",
+          "$ref": {
+            "file": "agents/loop-control.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/configuring-call-options.mdx",
+          "type": "page",
+          "name": "Configuring Call Options",
+          "description": "Pass type-safe runtime inputs to dynamically configure agent behavior.",
+          "url": "/docs/agents/configuring-call-options",
+          "$ref": {
+            "file": "agents/configuring-call-options.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/memory.mdx",
+          "type": "page",
+          "name": "Memory",
+          "description": "Add persistent memory to your agent using provider-defined tools, memory providers, or a custom tool.",
+          "url": "/docs/agents/memory",
+          "$ref": {
+            "file": "agents/memory.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/policy-tool-approvals.mdx",
+          "type": "page",
+          "name": "Policy-Based Tool Approvals",
+          "description": "Author tool authorization rules as code with @ai-sdk/policy-opa and Open Policy Agent.",
+          "url": "/docs/agents/policy-tool-approvals",
+          "$ref": {
+            "file": "agents/policy-tool-approvals.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/subagents.mdx",
+          "type": "page",
+          "name": "Subagents",
+          "description": "Delegate context-heavy tasks to specialized subagents while keeping the main agent focused.",
+          "url": "/docs/agents/subagents",
+          "$ref": {
+            "file": "agents/subagents.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/tool-approvals.mdx",
+          "type": "page",
+          "name": "Tool Approvals",
+          "description": "Add manual and automatic approval flows to ToolLoopAgent tools.",
+          "url": "/docs/agents/tool-approvals",
+          "$ref": {
+            "file": "agents/tool-approvals.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/workflow-agent.mdx",
+          "type": "page",
+          "name": "WorkflowAgent",
+          "description": "Build durable, resumable agents with the WorkflowAgent from @ai-sdk/workflow.",
+          "url": "/docs/agents/workflow-agent",
+          "$ref": {
+            "file": "agents/workflow-agent.mdx"
+          }
+        },
+        {
+          "$id": "en:agents/terminal-ui.mdx",
+          "type": "page",
+          "name": "Terminal UI",
+          "description": "Run AI SDK agents in an interactive terminal UI.",
+          "url": "/docs/agents/terminal-ui",
+          "$ref": {
+            "file": "agents/terminal-ui.mdx"
+          }
+        }
+      ],
+      "$id": "en:agents",
+      "$ref": {
+        "metaFile": "agents/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "AI SDK Core",
+      "children": [
+        {
+          "$id": "en:ai-sdk-core/overview.mdx",
+          "type": "page",
+          "name": "Overview",
+          "description": "An overview of AI SDK Core.",
+          "url": "/docs/ai-sdk-core/overview",
+          "$ref": {
+            "file": "ai-sdk-core/overview.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/generating-text.mdx",
+          "type": "page",
+          "name": "Generating Text",
+          "description": "Learn how to generate text with the AI SDK.",
+          "url": "/docs/ai-sdk-core/generating-text",
+          "$ref": {
+            "file": "ai-sdk-core/generating-text.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/generating-structured-data.mdx",
+          "type": "page",
+          "name": "Generating Structured Data",
+          "description": "Learn how to generate structured data with the AI SDK.",
+          "url": "/docs/ai-sdk-core/generating-structured-data",
+          "$ref": {
+            "file": "ai-sdk-core/generating-structured-data.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/tools-and-tool-calling.mdx",
+          "type": "page",
+          "name": "Tool Calling",
+          "description": "Learn about tool calling and multi-step calls (using stopWhen) with AI SDK Core.",
+          "url": "/docs/ai-sdk-core/tools-and-tool-calling",
+          "$ref": {
+            "file": "ai-sdk-core/tools-and-tool-calling.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/mcp-tools.mdx",
+          "type": "page",
+          "name": "Model Context Protocol (MCP)",
+          "description": "Learn how to connect to Model Context Protocol (MCP) servers and use their tools with AI SDK Core.",
+          "url": "/docs/ai-sdk-core/mcp-tools",
+          "$ref": {
+            "file": "ai-sdk-core/mcp-tools.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/mcp-apps.mdx",
+          "type": "page",
+          "name": "MCP Apps",
+          "description": "Learn how to connect to MCP Apps and render interactive tool UIs with the AI SDK.",
+          "url": "/docs/ai-sdk-core/mcp-apps",
+          "$ref": {
+            "file": "ai-sdk-core/mcp-apps.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/mcp-events.mdx",
+          "type": "page",
+          "name": "MCP Events",
+          "description": "Understand the MCP webhook events contract and the AI SDK APIs for subscribing, verifying, and receiving events.",
+          "url": "/docs/ai-sdk-core/mcp-events",
+          "$ref": {
+            "file": "ai-sdk-core/mcp-events.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/runtime-and-tool-context.mdx",
+          "type": "page",
+          "name": "Runtime and Tool Context",
+          "description": "Learn how runtime context, tool context, and telemetry context filtering work together.",
+          "url": "/docs/ai-sdk-core/runtime-and-tool-context",
+          "$ref": {
+            "file": "ai-sdk-core/runtime-and-tool-context.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/code-mode.mdx",
+          "type": "page",
+          "name": "Code Mode",
+          "description": "Let models orchestrate AI SDK tools with sandboxed JavaScript and TypeScript.",
+          "url": "/docs/ai-sdk-core/code-mode",
+          "$ref": {
+            "file": "ai-sdk-core/code-mode.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/tool-search.mdx",
+          "type": "page",
+          "name": "Tool Search",
+          "description": "Let models discover tools on demand, with direct calling or cache-preserving code mode.",
+          "url": "/docs/ai-sdk-core/tool-search",
+          "$ref": {
+            "file": "ai-sdk-core/tool-search.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/prompt-engineering.mdx",
+          "type": "page",
+          "name": "Prompt Engineering",
+          "description": "Learn how to develop prompts with AI SDK Core.",
+          "url": "/docs/ai-sdk-core/prompt-engineering",
+          "$ref": {
+            "file": "ai-sdk-core/prompt-engineering.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/settings.mdx",
+          "type": "page",
+          "name": "Settings",
+          "description": "Learn how to configure the AI SDK.",
+          "url": "/docs/ai-sdk-core/settings",
+          "$ref": {
+            "file": "ai-sdk-core/settings.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/reasoning.mdx",
+          "type": "page",
+          "name": "Reasoning",
+          "description": "Learn how to control reasoning across providers with the top-level reasoning parameter.",
+          "url": "/docs/ai-sdk-core/reasoning",
+          "$ref": {
+            "file": "ai-sdk-core/reasoning.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/embeddings.mdx",
+          "type": "page",
+          "name": "Embeddings",
+          "description": "Learn how to embed values with the AI SDK.",
+          "url": "/docs/ai-sdk-core/embeddings",
+          "$ref": {
+            "file": "ai-sdk-core/embeddings.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/reranking.mdx",
+          "type": "page",
+          "name": "Reranking",
+          "description": "Learn how to rerank documents with the AI SDK.",
+          "url": "/docs/ai-sdk-core/reranking",
+          "$ref": {
+            "file": "ai-sdk-core/reranking.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/decisions.mdx",
+          "type": "page",
+          "name": "Decisions",
+          "description": "Decide answers to Choice, Score, and Boolean questions against shared state.",
+          "url": "/docs/ai-sdk-core/decisions",
+          "$ref": {
+            "file": "ai-sdk-core/decisions.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/image-generation.mdx",
+          "type": "page",
+          "name": "Image Generation",
+          "description": "Learn how to generate images with the AI SDK.",
+          "url": "/docs/ai-sdk-core/image-generation",
+          "$ref": {
+            "file": "ai-sdk-core/image-generation.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/realtime.mdx",
+          "type": "page",
+          "name": "Realtime",
+          "description": "Learn how to build realtime voice conversations with the AI SDK.",
+          "url": "/docs/ai-sdk-core/realtime",
+          "$ref": {
+            "file": "ai-sdk-core/realtime.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/transcription.mdx",
+          "type": "page",
+          "name": "Transcription",
+          "description": "Learn how to transcribe audio with the AI SDK.",
+          "url": "/docs/ai-sdk-core/transcription",
+          "$ref": {
+            "file": "ai-sdk-core/transcription.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/translation.mdx",
+          "type": "page",
+          "name": "Translation",
+          "description": "Learn how to translate speech with the AI SDK.",
+          "url": "/docs/ai-sdk-core/translation",
+          "$ref": {
+            "file": "ai-sdk-core/translation.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/speech.mdx",
+          "type": "page",
+          "name": "Speech",
+          "description": "Learn how to generate speech from text with the AI SDK.",
+          "url": "/docs/ai-sdk-core/speech",
+          "$ref": {
+            "file": "ai-sdk-core/speech.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/video-generation.mdx",
+          "type": "page",
+          "name": "Video Generation",
+          "description": "Learn how to generate videos with the AI SDK.",
+          "url": "/docs/ai-sdk-core/video-generation",
+          "$ref": {
+            "file": "ai-sdk-core/video-generation.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/file-uploads.mdx",
+          "type": "page",
+          "name": "File Uploads",
+          "description": "Learn how to upload files and use provider references with the AI SDK.",
+          "url": "/docs/ai-sdk-core/file-uploads",
+          "$ref": {
+            "file": "ai-sdk-core/file-uploads.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/middleware.mdx",
+          "type": "page",
+          "name": "Language Model Middleware",
+          "description": "Learn how to use middleware to enhance the behavior of language models",
+          "url": "/docs/ai-sdk-core/middleware",
+          "$ref": {
+            "file": "ai-sdk-core/middleware.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/skill-uploads.mdx",
+          "type": "page",
+          "name": "Skill Uploads",
+          "description": "Learn how to upload skills and use provider references with the AI SDK.",
+          "url": "/docs/ai-sdk-core/skill-uploads",
+          "$ref": {
+            "file": "ai-sdk-core/skill-uploads.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/batch.mdx",
+          "type": "page",
+          "name": "Batch",
+          "description": "Learn how to process asynchronous batches with the AI SDK.",
+          "url": "/docs/ai-sdk-core/batch",
+          "$ref": {
+            "file": "ai-sdk-core/batch.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/provider-management.mdx",
+          "type": "page",
+          "name": "Provider & Model Management",
+          "description": "Learn how to work with multiple providers and models",
+          "url": "/docs/ai-sdk-core/provider-management",
+          "$ref": {
+            "file": "ai-sdk-core/provider-management.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/error-handling.mdx",
+          "type": "page",
+          "name": "Error Handling",
+          "description": "Learn how to handle errors in the AI SDK Core",
+          "url": "/docs/ai-sdk-core/error-handling",
+          "$ref": {
+            "file": "ai-sdk-core/error-handling.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/testing.mdx",
+          "type": "page",
+          "name": "Testing",
+          "description": "Learn how to use AI SDK Core mock providers for testing.",
+          "url": "/docs/ai-sdk-core/testing",
+          "$ref": {
+            "file": "ai-sdk-core/testing.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/telemetry.mdx",
+          "type": "page",
+          "name": "Telemetry",
+          "description": "Using OpenTelemetry with AI SDK Core",
+          "url": "/docs/ai-sdk-core/telemetry",
+          "$ref": {
+            "file": "ai-sdk-core/telemetry.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/devtools.mdx",
+          "type": "page",
+          "name": "DevTools",
+          "description": "Debug and inspect AI SDK applications with DevTools",
+          "url": "/docs/ai-sdk-core/devtools",
+          "$ref": {
+            "file": "ai-sdk-core/devtools.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-core/lifecycle-callbacks.mdx",
+          "type": "page",
+          "name": "Lifecycle Callbacks",
+          "description": "Observe AI SDK lifecycle events in generateText, streamText, embed, embedMany, rerank, and experimental_decide calls",
+          "url": "/docs/ai-sdk-core/lifecycle-callbacks",
+          "$ref": {
+            "file": "ai-sdk-core/lifecycle-callbacks.mdx"
+          }
+        }
+      ],
+      "$id": "en:ai-sdk-core",
+      "$ref": {
+        "metaFile": "ai-sdk-core/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "AI SDK Harnesses",
+      "children": [
+        {
+          "$id": "en:ai-sdk-harnesses/overview.mdx",
+          "type": "page",
+          "name": "Overview",
+          "description": "Learn what AI SDK harnesses are and how they fit into the AI SDK.",
+          "url": "/docs/ai-sdk-harnesses/overview",
+          "$ref": {
+            "file": "ai-sdk-harnesses/overview.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-harnesses/harness-agent.mdx",
+          "type": "page",
+          "name": "HarnessAgent",
+          "description": "Create and run AI SDK HarnessAgent sessions.",
+          "url": "/docs/ai-sdk-harnesses/harness-agent",
+          "$ref": {
+            "file": "ai-sdk-harnesses/harness-agent.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-harnesses/tools.mdx",
+          "type": "page",
+          "name": "Tools",
+          "description": "Use tools with AI SDK harnesses.",
+          "url": "/docs/ai-sdk-harnesses/tools",
+          "$ref": {
+            "file": "ai-sdk-harnesses/tools.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-harnesses/skills.mdx",
+          "type": "page",
+          "name": "Skills",
+          "description": "Use skills with AI SDK harnesses.",
+          "url": "/docs/ai-sdk-harnesses/skills",
+          "$ref": {
+            "file": "ai-sdk-harnesses/skills.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-harnesses/harness-adapters.mdx",
+          "type": "page",
+          "name": "Harness Adapters",
+          "description": "Learn about the available AI SDK harness adapters.",
+          "url": "/docs/ai-sdk-harnesses/harness-adapters",
+          "$ref": {
+            "file": "ai-sdk-harnesses/harness-adapters.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-harnesses/workflow-utilities.mdx",
+          "type": "page",
+          "name": "Workflow Utilities",
+          "description": "Run HarnessAgent turns as durable Workflow DevKit workflows.",
+          "url": "/docs/ai-sdk-harnesses/workflow-utilities",
+          "$ref": {
+            "file": "ai-sdk-harnesses/workflow-utilities.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-harnesses/ui.mdx",
+          "type": "page",
+          "name": "UI",
+          "description": "Use AI SDK harnesses with useChat.",
+          "url": "/docs/ai-sdk-harnesses/ui",
+          "$ref": {
+            "file": "ai-sdk-harnesses/ui.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-harnesses/terminal-ui.mdx",
+          "type": "page",
+          "name": "Terminal UI",
+          "description": "Use @ai-sdk/tui with HarnessAgent.",
+          "url": "/docs/ai-sdk-harnesses/terminal-ui",
+          "$ref": {
+            "file": "ai-sdk-harnesses/terminal-ui.mdx"
+          }
+        }
+      ],
+      "$id": "en:ai-sdk-harnesses",
+      "$ref": {
+        "metaFile": "ai-sdk-harnesses/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "AI SDK UI",
+      "children": [
+        {
+          "$id": "en:ai-sdk-ui/overview.mdx",
+          "type": "page",
+          "name": "Overview",
+          "description": "An overview of AI SDK UI.",
+          "url": "/docs/ai-sdk-ui/overview",
+          "$ref": {
+            "file": "ai-sdk-ui/overview.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/chatbot.mdx",
+          "type": "page",
+          "name": "Chatbot",
+          "description": "Learn how to use the useChat hook.",
+          "url": "/docs/ai-sdk-ui/chatbot",
+          "$ref": {
+            "file": "ai-sdk-ui/chatbot.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/chatbot-message-persistence.mdx",
+          "type": "page",
+          "name": "Chatbot Message Persistence",
+          "description": "Learn how to store and load chat messages in a chatbot.",
+          "url": "/docs/ai-sdk-ui/chatbot-message-persistence",
+          "$ref": {
+            "file": "ai-sdk-ui/chatbot-message-persistence.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/chatbot-resume-streams.mdx",
+          "type": "page",
+          "name": "Chatbot Resume Streams",
+          "description": "Learn how to resume chatbot streams after client disconnects.",
+          "url": "/docs/ai-sdk-ui/chatbot-resume-streams",
+          "$ref": {
+            "file": "ai-sdk-ui/chatbot-resume-streams.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/chatbot-tool-usage.mdx",
+          "type": "page",
+          "name": "Chatbot Tool Usage",
+          "description": "Learn how to use tools with the useChat hook.",
+          "url": "/docs/ai-sdk-ui/chatbot-tool-usage",
+          "$ref": {
+            "file": "ai-sdk-ui/chatbot-tool-usage.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/generative-user-interfaces.mdx",
+          "type": "page",
+          "name": "Generative User Interfaces",
+          "description": "Learn how to build Generative UI with AI SDK UI.",
+          "url": "/docs/ai-sdk-ui/generative-user-interfaces",
+          "$ref": {
+            "file": "ai-sdk-ui/generative-user-interfaces.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/completion.mdx",
+          "type": "page",
+          "name": "Completion",
+          "description": "Learn how to use the useCompletion hook.",
+          "url": "/docs/ai-sdk-ui/completion",
+          "$ref": {
+            "file": "ai-sdk-ui/completion.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/object-generation.mdx",
+          "type": "page",
+          "name": "Object Generation",
+          "description": "Learn how to use the useObject hook.",
+          "url": "/docs/ai-sdk-ui/object-generation",
+          "$ref": {
+            "file": "ai-sdk-ui/object-generation.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/streaming-data.mdx",
+          "type": "page",
+          "name": "Streaming Custom Data",
+          "description": "Learn how to stream custom data from the server to the client.",
+          "url": "/docs/ai-sdk-ui/streaming-data",
+          "$ref": {
+            "file": "ai-sdk-ui/streaming-data.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/error-handling.mdx",
+          "type": "page",
+          "name": "Error Handling",
+          "description": "Learn how to handle errors in the AI SDK UI",
+          "url": "/docs/ai-sdk-ui/error-handling",
+          "$ref": {
+            "file": "ai-sdk-ui/error-handling.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/transport.mdx",
+          "type": "page",
+          "name": "Transport",
+          "description": "Learn how to use custom transports with useChat.",
+          "url": "/docs/ai-sdk-ui/transport",
+          "$ref": {
+            "file": "ai-sdk-ui/transport.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/reading-ui-message-streams.mdx",
+          "type": "page",
+          "name": "Reading UIMessage Streams",
+          "description": "Learn how to read UIMessage streams.",
+          "url": "/docs/ai-sdk-ui/reading-ui-message-streams",
+          "$ref": {
+            "file": "ai-sdk-ui/reading-ui-message-streams.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/message-metadata.mdx",
+          "type": "page",
+          "name": "Message Metadata",
+          "description": "Learn how to attach and use metadata with messages in AI SDK UI",
+          "url": "/docs/ai-sdk-ui/message-metadata",
+          "$ref": {
+            "file": "ai-sdk-ui/message-metadata.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-ui/stream-protocol.mdx",
+          "type": "page",
+          "name": "Stream Protocols",
+          "description": "Learn more about the supported stream protocols in the AI SDK.",
+          "url": "/docs/ai-sdk-ui/stream-protocol",
+          "$ref": {
+            "file": "ai-sdk-ui/stream-protocol.mdx"
+          }
+        }
+      ],
+      "$id": "en:ai-sdk-ui",
+      "$ref": {
+        "metaFile": "ai-sdk-ui/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "AI SDK RSC",
+      "defaultOpen": false,
+      "children": [
+        {
+          "$id": "en:ai-sdk-rsc/overview.mdx",
+          "type": "page",
+          "name": "Overview",
+          "description": "An overview of AI SDK RSC.",
+          "url": "/docs/ai-sdk-rsc/overview",
+          "$ref": {
+            "file": "ai-sdk-rsc/overview.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-rsc/streaming-react-components.mdx",
+          "type": "page",
+          "name": "Streaming React Components",
+          "description": "Overview of streaming RSCs",
+          "url": "/docs/ai-sdk-rsc/streaming-react-components",
+          "$ref": {
+            "file": "ai-sdk-rsc/streaming-react-components.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-rsc/generative-ui-state.mdx",
+          "type": "page",
+          "name": "Managing Generative UI State",
+          "description": "Overview of the AI and UI states",
+          "url": "/docs/ai-sdk-rsc/generative-ui-state",
+          "$ref": {
+            "file": "ai-sdk-rsc/generative-ui-state.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-rsc/saving-and-restoring-states.mdx",
+          "type": "page",
+          "name": "Saving and Restoring States",
+          "description": "Saving and restoring AI and UI states with onGetUIState and onSetAIState",
+          "url": "/docs/ai-sdk-rsc/saving-and-restoring-states",
+          "$ref": {
+            "file": "ai-sdk-rsc/saving-and-restoring-states.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-rsc/multistep-interfaces.mdx",
+          "type": "page",
+          "name": "Multistep Interfaces",
+          "description": "Overview of Building Multistep Interfaces with AI SDK RSC",
+          "url": "/docs/ai-sdk-rsc/multistep-interfaces",
+          "$ref": {
+            "file": "ai-sdk-rsc/multistep-interfaces.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-rsc/streaming-values.mdx",
+          "type": "page",
+          "name": "Streaming Values",
+          "description": "Overview of streaming RSCs",
+          "url": "/docs/ai-sdk-rsc/streaming-values",
+          "$ref": {
+            "file": "ai-sdk-rsc/streaming-values.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-rsc/loading-state.mdx",
+          "type": "page",
+          "name": "Handling Loading State",
+          "description": "Overview of handling loading state with AI SDK RSC",
+          "url": "/docs/ai-sdk-rsc/loading-state",
+          "$ref": {
+            "file": "ai-sdk-rsc/loading-state.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-rsc/error-handling.mdx",
+          "type": "page",
+          "name": "Error Handling",
+          "description": "Learn how to handle errors with the AI SDK.",
+          "url": "/docs/ai-sdk-rsc/error-handling",
+          "$ref": {
+            "file": "ai-sdk-rsc/error-handling.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-rsc/authentication.mdx",
+          "type": "page",
+          "name": "Handling Authentication",
+          "description": "Learn how to authenticate with the AI SDK.",
+          "url": "/docs/ai-sdk-rsc/authentication",
+          "$ref": {
+            "file": "ai-sdk-rsc/authentication.mdx"
+          }
+        },
+        {
+          "$id": "en:ai-sdk-rsc/migrating-to-ui.mdx",
+          "type": "page",
+          "name": "Migrating from RSC to UI",
+          "description": "Learn how to migrate from AI SDK RSC to AI SDK UI.",
+          "url": "/docs/ai-sdk-rsc/migrating-to-ui",
+          "$ref": {
+            "file": "ai-sdk-rsc/migrating-to-ui.mdx"
+          }
+        }
+      ],
+      "$id": "en:ai-sdk-rsc",
+      "$ref": {
+        "metaFile": "ai-sdk-rsc/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "Advanced",
+      "defaultOpen": false,
+      "index": {
+        "$id": "en:advanced/index.mdx",
+        "type": "page",
+        "name": "Advanced",
+        "description": "Learn how to use advanced functionality within the AI SDK and RSC API.",
+        "url": "/docs/advanced",
+        "$ref": {
+          "file": "advanced/index.mdx"
+        }
+      },
+      "children": [
+        {
+          "$id": "en:advanced/prompt-engineering.mdx",
+          "type": "page",
+          "name": "Prompt Engineering",
+          "description": "Learn how to engineer prompts for LLMs with the AI SDK",
+          "url": "/docs/advanced/prompt-engineering",
+          "$ref": {
+            "file": "advanced/prompt-engineering.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/stopping-streams.mdx",
+          "type": "page",
+          "name": "Stopping Streams",
+          "description": "Learn how to cancel streams with the AI SDK",
+          "url": "/docs/advanced/stopping-streams",
+          "$ref": {
+            "file": "advanced/stopping-streams.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/backpressure.mdx",
+          "type": "page",
+          "name": "Backpressure",
+          "description": "How to handle backpressure and cancellation when working with the AI SDK",
+          "url": "/docs/advanced/backpressure",
+          "$ref": {
+            "file": "advanced/backpressure.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/caching.mdx",
+          "type": "page",
+          "name": "Caching",
+          "description": "How to handle caching when working with the AI SDK",
+          "url": "/docs/advanced/caching",
+          "$ref": {
+            "file": "advanced/caching.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/multiple-streamables.mdx",
+          "type": "page",
+          "name": "Multiple Streamables",
+          "description": "Learn to handle multiple streamables in your application.",
+          "url": "/docs/advanced/multiple-streamables",
+          "$ref": {
+            "file": "advanced/multiple-streamables.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/rate-limiting.mdx",
+          "type": "page",
+          "name": "Rate Limiting",
+          "description": "Learn how to rate limit your application.",
+          "url": "/docs/advanced/rate-limiting",
+          "$ref": {
+            "file": "advanced/rate-limiting.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/rendering-ui-with-language-models.mdx",
+          "type": "page",
+          "name": "Rendering UI with Language Models",
+          "description": "Rendering UI with Language Models",
+          "url": "/docs/advanced/rendering-ui-with-language-models",
+          "$ref": {
+            "file": "advanced/rendering-ui-with-language-models.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/model-as-router.mdx",
+          "type": "page",
+          "name": "Language Models as Routers",
+          "description": "Generative User Interfaces and Language Models as Routers",
+          "url": "/docs/advanced/model-as-router",
+          "$ref": {
+            "file": "advanced/model-as-router.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/multistep-interfaces.mdx",
+          "type": "page",
+          "name": "Multistep Interfaces",
+          "description": "Concepts behind building multistep interfaces",
+          "url": "/docs/advanced/multistep-interfaces",
+          "$ref": {
+            "file": "advanced/multistep-interfaces.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/sequential-generations.mdx",
+          "type": "page",
+          "name": "Sequential Generations",
+          "description": "Learn how to implement sequential generations (\"chains\") with the AI SDK",
+          "url": "/docs/advanced/sequential-generations",
+          "$ref": {
+            "file": "advanced/sequential-generations.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/vercel-deployment-guide.mdx",
+          "type": "page",
+          "name": "Vercel Deployment Guide",
+          "description": "Learn how to deploy an AI application to production on Vercel",
+          "url": "/docs/advanced/vercel-deployment-guide",
+          "$ref": {
+            "file": "advanced/vercel-deployment-guide.mdx"
+          }
+        },
+        {
+          "$id": "en:advanced/secure-url-fetching.mdx",
+          "type": "page",
+          "name": "Secure URL Fetching",
+          "description": "How the AI SDK protects server-side fetches of URLs returned by model providers, and how to harden your deployment further.",
+          "url": "/docs/advanced/secure-url-fetching",
+          "$ref": {
+            "file": "advanced/secure-url-fetching.mdx"
+          }
+        }
+      ],
+      "$id": "en:advanced",
+      "$ref": {
+        "metaFile": "advanced/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "Reference",
+      "index": {
+        "$id": "en:reference/index.mdx",
+        "type": "page",
+        "name": "Reference",
+        "description": "Reference documentation for the AI SDK",
+        "url": "/docs/reference",
+        "$ref": {
+          "file": "reference/index.mdx"
+        }
+      },
+      "children": [
+        {
+          "type": "folder",
+          "name": "AI SDK Core",
+          "defaultOpen": false,
+          "index": {
+            "$id": "en:reference/ai-sdk-core/index.mdx",
+            "type": "page",
+            "name": "AI SDK Core",
+            "description": "Reference documentation for the AI SDK Core",
+            "url": "/docs/reference/ai-sdk-core",
+            "$ref": {
+              "file": "reference/ai-sdk-core/index.mdx"
+            }
+          },
+          "children": [
+            {
+              "$id": "en:reference/ai-sdk-core/generate-text.mdx",
+              "type": "page",
+              "name": "generateText",
+              "description": "API Reference for generateText.",
+              "url": "/docs/reference/ai-sdk-core/generate-text",
+              "$ref": {
+                "file": "reference/ai-sdk-core/generate-text.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/stream-text.mdx",
+              "type": "page",
+              "name": "streamText",
+              "description": "API Reference for streamText.",
+              "url": "/docs/reference/ai-sdk-core/stream-text",
+              "$ref": {
+                "file": "reference/ai-sdk-core/stream-text.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/embed.mdx",
+              "type": "page",
+              "name": "embed",
+              "description": "API Reference for embed.",
+              "url": "/docs/reference/ai-sdk-core/embed",
+              "$ref": {
+                "file": "reference/ai-sdk-core/embed.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/embed-many.mdx",
+              "type": "page",
+              "name": "embedMany",
+              "description": "API Reference for embedMany.",
+              "url": "/docs/reference/ai-sdk-core/embed-many",
+              "$ref": {
+                "file": "reference/ai-sdk-core/embed-many.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/rerank.mdx",
+              "type": "page",
+              "name": "rerank",
+              "description": "API Reference for rerank.",
+              "url": "/docs/reference/ai-sdk-core/rerank",
+              "$ref": {
+                "file": "reference/ai-sdk-core/rerank.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/generate-image.mdx",
+              "type": "page",
+              "name": "generateImage",
+              "description": "API Reference for generateImage.",
+              "url": "/docs/reference/ai-sdk-core/generate-image",
+              "$ref": {
+                "file": "reference/ai-sdk-core/generate-image.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/stream-transcribe.mdx",
+              "type": "page",
+              "name": "experimental_streamTranscribe",
+              "description": "API Reference for experimental_streamTranscribe.",
+              "url": "/docs/reference/ai-sdk-core/stream-transcribe",
+              "$ref": {
+                "file": "reference/ai-sdk-core/stream-transcribe.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/stream-translate.mdx",
+              "type": "page",
+              "name": "experimental_streamTranslate",
+              "description": "API Reference for experimental_streamTranslate.",
+              "url": "/docs/reference/ai-sdk-core/stream-translate",
+              "$ref": {
+                "file": "reference/ai-sdk-core/stream-translate.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/transcribe.mdx",
+              "type": "page",
+              "name": "transcribe",
+              "description": "API Reference for transcribe.",
+              "url": "/docs/reference/ai-sdk-core/transcribe",
+              "$ref": {
+                "file": "reference/ai-sdk-core/transcribe.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/generate-speech.mdx",
+              "type": "page",
+              "name": "generateSpeech",
+              "description": "API Reference for generateSpeech.",
+              "url": "/docs/reference/ai-sdk-core/generate-speech",
+              "$ref": {
+                "file": "reference/ai-sdk-core/generate-speech.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/generate-video.mdx",
+              "type": "page",
+              "name": "experimental_generateVideo",
+              "description": "API Reference for experimental_generateVideo.",
+              "url": "/docs/reference/ai-sdk-core/generate-video",
+              "$ref": {
+                "file": "reference/ai-sdk-core/generate-video.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/decide.mdx",
+              "type": "page",
+              "name": "experimental_decide",
+              "description": "Decide answers to typed questions against shared state with a decision model.",
+              "url": "/docs/reference/ai-sdk-core/decide",
+              "$ref": {
+                "file": "reference/ai-sdk-core/decide.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/upload-file.mdx",
+              "type": "page",
+              "name": "uploadFile",
+              "description": "API Reference for uploadFile.",
+              "url": "/docs/reference/ai-sdk-core/upload-file",
+              "$ref": {
+                "file": "reference/ai-sdk-core/upload-file.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/upload-skill.mdx",
+              "type": "page",
+              "name": "uploadSkill",
+              "description": "API Reference for uploadSkill.",
+              "url": "/docs/reference/ai-sdk-core/upload-skill",
+              "$ref": {
+                "file": "reference/ai-sdk-core/upload-skill.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/agent.mdx",
+              "type": "page",
+              "name": "Agent (Interface)",
+              "description": "API Reference for the Agent interface.",
+              "url": "/docs/reference/ai-sdk-core/agent",
+              "$ref": {
+                "file": "reference/ai-sdk-core/agent.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/tool-loop-agent.mdx",
+              "type": "page",
+              "name": "ToolLoopAgent",
+              "description": "API Reference for the ToolLoopAgent class.",
+              "url": "/docs/reference/ai-sdk-core/tool-loop-agent",
+              "$ref": {
+                "file": "reference/ai-sdk-core/tool-loop-agent.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/create-agent-ui-stream.mdx",
+              "type": "page",
+              "name": "createAgentUIStream",
+              "description": "API Reference for the createAgentUIStream utility.",
+              "url": "/docs/reference/ai-sdk-core/create-agent-ui-stream",
+              "$ref": {
+                "file": "reference/ai-sdk-core/create-agent-ui-stream.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/create-agent-ui-stream-response.mdx",
+              "type": "page",
+              "name": "createAgentUIStreamResponse",
+              "description": "API Reference for the createAgentUIStreamResponse utility.",
+              "url": "/docs/reference/ai-sdk-core/create-agent-ui-stream-response",
+              "$ref": {
+                "file": "reference/ai-sdk-core/create-agent-ui-stream-response.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/pipe-agent-ui-stream-to-response.mdx",
+              "type": "page",
+              "name": "pipeAgentUIStreamToResponse",
+              "description": "API Reference for the pipeAgentUIStreamToResponse utility.",
+              "url": "/docs/reference/ai-sdk-core/pipe-agent-ui-stream-to-response",
+              "$ref": {
+                "file": "reference/ai-sdk-core/pipe-agent-ui-stream-to-response.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/start-batch.mdx",
+              "type": "page",
+              "name": "experimental_startBatch",
+              "description": "API Reference for experimental_startBatch.",
+              "url": "/docs/reference/ai-sdk-core/start-batch",
+              "$ref": {
+                "file": "reference/ai-sdk-core/start-batch.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/tool.mdx",
+              "type": "page",
+              "name": "tool",
+              "description": "Helper function for tool type inference",
+              "url": "/docs/reference/ai-sdk-core/tool",
+              "$ref": {
+                "file": "reference/ai-sdk-core/tool.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/get-batch-status.mdx",
+              "type": "page",
+              "name": "experimental_getBatchStatus",
+              "description": "API Reference for experimental_getBatchStatus.",
+              "url": "/docs/reference/ai-sdk-core/get-batch-status",
+              "$ref": {
+                "file": "reference/ai-sdk-core/get-batch-status.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/dynamic-tool.mdx",
+              "type": "page",
+              "name": "dynamicTool",
+              "description": "Helper function for creating dynamic tools with unknown types",
+              "url": "/docs/reference/ai-sdk-core/dynamic-tool",
+              "$ref": {
+                "file": "reference/ai-sdk-core/dynamic-tool.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/get-batch-results.mdx",
+              "type": "page",
+              "name": "experimental_getBatchResults",
+              "description": "API Reference for experimental_getBatchResults.",
+              "url": "/docs/reference/ai-sdk-core/get-batch-results",
+              "$ref": {
+                "file": "reference/ai-sdk-core/get-batch-results.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/cancel-batch.mdx",
+              "type": "page",
+              "name": "experimental_cancelBatch",
+              "description": "API Reference for experimental_cancelBatch.",
+              "url": "/docs/reference/ai-sdk-core/cancel-batch",
+              "$ref": {
+                "file": "reference/ai-sdk-core/cancel-batch.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/create-mcp-client.mdx",
+              "type": "page",
+              "name": "createMCPClient",
+              "description": "Create a client for connecting to MCP servers",
+              "url": "/docs/reference/ai-sdk-core/create-mcp-client",
+              "$ref": {
+                "file": "reference/ai-sdk-core/create-mcp-client.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/get-realtime-tool-definitions.mdx",
+              "type": "page",
+              "name": "experimental_getRealtimeToolDefinitions",
+              "description": "API reference for experimental_getRealtimeToolDefinitions.",
+              "url": "/docs/reference/ai-sdk-core/get-realtime-tool-definitions",
+              "$ref": {
+                "file": "reference/ai-sdk-core/get-realtime-tool-definitions.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/tool-search.mdx",
+              "type": "page",
+              "name": "toolSearch",
+              "description": "Search deferred tools and load their definitions on demand for direct calling or code mode.",
+              "url": "/docs/reference/ai-sdk-core/tool-search",
+              "$ref": {
+                "file": "reference/ai-sdk-core/tool-search.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/list-batches.mdx",
+              "type": "page",
+              "name": "experimental_listBatches",
+              "description": "API Reference for experimental_listBatches.",
+              "url": "/docs/reference/ai-sdk-core/list-batches",
+              "$ref": {
+                "file": "reference/ai-sdk-core/list-batches.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/mcp-apps.mdx",
+              "type": "page",
+              "name": "MCP Apps",
+              "description": "API reference for MCP Apps helpers in @ai-sdk/mcp.",
+              "url": "/docs/reference/ai-sdk-core/mcp-apps",
+              "$ref": {
+                "file": "reference/ai-sdk-core/mcp-apps.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/mcp-events.mdx",
+              "type": "page",
+              "name": "MCP Events",
+              "description": "Reference for experimental MCP event methods, the webhook handler, and subscription and storage types.",
+              "url": "/docs/reference/ai-sdk-core/mcp-events",
+              "$ref": {
+                "file": "reference/ai-sdk-core/mcp-events.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/mcp-stdio-transport.mdx",
+              "type": "page",
+              "name": "Experimental_StdioMCPTransport",
+              "description": "Create a transport for Model Context Protocol (MCP) clients to communicate with MCP servers using standard input and output streams",
+              "url": "/docs/reference/ai-sdk-core/mcp-stdio-transport",
+              "$ref": {
+                "file": "reference/ai-sdk-core/mcp-stdio-transport.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/json-schema.mdx",
+              "type": "page",
+              "name": "jsonSchema",
+              "description": "Helper function for creating JSON schemas",
+              "url": "/docs/reference/ai-sdk-core/json-schema",
+              "$ref": {
+                "file": "reference/ai-sdk-core/json-schema.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/zod-schema.mdx",
+              "type": "page",
+              "name": "zodSchema",
+              "description": "Helper function for creating Zod schemas",
+              "url": "/docs/reference/ai-sdk-core/zod-schema",
+              "$ref": {
+                "file": "reference/ai-sdk-core/zod-schema.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/valibot-schema.mdx",
+              "type": "page",
+              "name": "valibotSchema",
+              "description": "Helper function for creating Valibot schemas",
+              "url": "/docs/reference/ai-sdk-core/valibot-schema",
+              "$ref": {
+                "file": "reference/ai-sdk-core/valibot-schema.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/output.mdx",
+              "type": "page",
+              "name": "Output",
+              "description": "API Reference for Output.",
+              "url": "/docs/reference/ai-sdk-core/output",
+              "$ref": {
+                "file": "reference/ai-sdk-core/output.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/filter-active-tools.mdx",
+              "type": "page",
+              "name": "filterActiveTools",
+              "description": "Filter a tool set to the currently active tools (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/filter-active-tools",
+              "$ref": {
+                "file": "reference/ai-sdk-core/filter-active-tools.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/model-message.mdx",
+              "type": "page",
+              "name": "ModelMessage",
+              "description": "Message types for AI SDK Core (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/model-message",
+              "$ref": {
+                "file": "reference/ai-sdk-core/model-message.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/ui-message.mdx",
+              "type": "page",
+              "name": "UIMessage",
+              "description": "API Reference for UIMessage",
+              "url": "/docs/reference/ai-sdk-core/ui-message",
+              "$ref": {
+                "file": "reference/ai-sdk-core/ui-message.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/validate-ui-messages.mdx",
+              "type": "page",
+              "name": "validateUIMessages",
+              "description": "API Reference for validateUIMessages",
+              "url": "/docs/reference/ai-sdk-core/validate-ui-messages",
+              "$ref": {
+                "file": "reference/ai-sdk-core/validate-ui-messages.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/safe-validate-ui-messages.mdx",
+              "type": "page",
+              "name": "safeValidateUIMessages",
+              "description": "API Reference for safeValidateUIMessages",
+              "url": "/docs/reference/ai-sdk-core/safe-validate-ui-messages",
+              "$ref": {
+                "file": "reference/ai-sdk-core/safe-validate-ui-messages.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/sandbox.mdx",
+              "type": "page",
+              "name": "Experimental_SandboxSession",
+              "description": "API Reference for the Experimental_SandboxSession interface.",
+              "url": "/docs/reference/ai-sdk-core/sandbox",
+              "$ref": {
+                "file": "reference/ai-sdk-core/sandbox.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/provider-registry.mdx",
+              "type": "page",
+              "name": "createProviderRegistry",
+              "description": "Registry for managing multiple providers and models (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/provider-registry",
+              "$ref": {
+                "file": "reference/ai-sdk-core/provider-registry.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/custom-provider.mdx",
+              "type": "page",
+              "name": "customProvider",
+              "description": "Custom provider that uses models from a different provider (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/custom-provider",
+              "$ref": {
+                "file": "reference/ai-sdk-core/custom-provider.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/cosine-similarity.mdx",
+              "type": "page",
+              "name": "cosineSimilarity",
+              "description": "Calculate the cosine similarity between two vectors (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/cosine-similarity",
+              "$ref": {
+                "file": "reference/ai-sdk-core/cosine-similarity.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/wrap-language-model.mdx",
+              "type": "page",
+              "name": "wrapLanguageModel",
+              "description": "Function for wrapping a language model with middleware (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/wrap-language-model",
+              "$ref": {
+                "file": "reference/ai-sdk-core/wrap-language-model.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/wrap-image-model.mdx",
+              "type": "page",
+              "name": "wrapImageModel",
+              "description": "Function for wrapping an image model with middleware (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/wrap-image-model",
+              "$ref": {
+                "file": "reference/ai-sdk-core/wrap-image-model.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/language-model-v2-middleware.mdx",
+              "type": "page",
+              "name": "LanguageModelV4Middleware",
+              "description": "Middleware for enhancing language model behavior (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/language-model-v2-middleware",
+              "$ref": {
+                "file": "reference/ai-sdk-core/language-model-v2-middleware.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/extract-reasoning-middleware.mdx",
+              "type": "page",
+              "name": "extractReasoningMiddleware",
+              "description": "Middleware that extracts reasoning sections from generated text using configurable delimiters",
+              "url": "/docs/reference/ai-sdk-core/extract-reasoning-middleware",
+              "$ref": {
+                "file": "reference/ai-sdk-core/extract-reasoning-middleware.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/simulate-streaming-middleware.mdx",
+              "type": "page",
+              "name": "simulateStreamingMiddleware",
+              "description": "Middleware that simulates streaming for non-streaming language models",
+              "url": "/docs/reference/ai-sdk-core/simulate-streaming-middleware",
+              "$ref": {
+                "file": "reference/ai-sdk-core/simulate-streaming-middleware.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/default-instructions-middleware.mdx",
+              "type": "page",
+              "name": "defaultInstructionsMiddleware",
+              "description": "Middleware that applies default instructions to language model calls",
+              "url": "/docs/reference/ai-sdk-core/default-instructions-middleware",
+              "$ref": {
+                "file": "reference/ai-sdk-core/default-instructions-middleware.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/default-settings-middleware.mdx",
+              "type": "page",
+              "name": "defaultSettingsMiddleware",
+              "description": "Middleware that applies default settings for language models",
+              "url": "/docs/reference/ai-sdk-core/default-settings-middleware",
+              "$ref": {
+                "file": "reference/ai-sdk-core/default-settings-middleware.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/add-tool-input-examples-middleware.mdx",
+              "type": "page",
+              "name": "addToolInputExamplesMiddleware",
+              "description": "Middleware that appends tool input examples to tool descriptions.",
+              "url": "/docs/reference/ai-sdk-core/add-tool-input-examples-middleware",
+              "$ref": {
+                "file": "reference/ai-sdk-core/add-tool-input-examples-middleware.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/extract-json-middleware.mdx",
+              "type": "page",
+              "name": "extractJsonMiddleware",
+              "description": "Middleware that extracts JSON from text content by stripping markdown code fences",
+              "url": "/docs/reference/ai-sdk-core/extract-json-middleware",
+              "$ref": {
+                "file": "reference/ai-sdk-core/extract-json-middleware.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/is-step-count.mdx",
+              "type": "page",
+              "name": "isStepCount",
+              "description": "API Reference for isStepCount.",
+              "url": "/docs/reference/ai-sdk-core/is-step-count",
+              "$ref": {
+                "file": "reference/ai-sdk-core/is-step-count.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/has-tool-call.mdx",
+              "type": "page",
+              "name": "hasToolCall",
+              "description": "API Reference for hasToolCall.",
+              "url": "/docs/reference/ai-sdk-core/has-tool-call",
+              "$ref": {
+                "file": "reference/ai-sdk-core/has-tool-call.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/loop-finished.mdx",
+              "type": "page",
+              "name": "isLoopFinished",
+              "description": "API Reference for isLoopFinished.",
+              "url": "/docs/reference/ai-sdk-core/loop-finished",
+              "$ref": {
+                "file": "reference/ai-sdk-core/loop-finished.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/simulate-readable-stream.mdx",
+              "type": "page",
+              "name": "simulateReadableStream",
+              "description": "Create a ReadableStream that emits values with configurable delays",
+              "url": "/docs/reference/ai-sdk-core/simulate-readable-stream",
+              "$ref": {
+                "file": "reference/ai-sdk-core/simulate-readable-stream.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/smooth-stream.mdx",
+              "type": "page",
+              "name": "smoothStream",
+              "description": "Stream transformer for smoothing text and reasoning output",
+              "url": "/docs/reference/ai-sdk-core/smooth-stream",
+              "$ref": {
+                "file": "reference/ai-sdk-core/smooth-stream.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/generate-id.mdx",
+              "type": "page",
+              "name": "generateId",
+              "description": "Generate a unique identifier (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/generate-id",
+              "$ref": {
+                "file": "reference/ai-sdk-core/generate-id.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/create-id-generator.mdx",
+              "type": "page",
+              "name": "createIdGenerator",
+              "description": "Create a customizable unique identifier generator (API Reference)",
+              "url": "/docs/reference/ai-sdk-core/create-id-generator",
+              "$ref": {
+                "file": "reference/ai-sdk-core/create-id-generator.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-core/default-generated-file.mdx",
+              "type": "page",
+              "name": "DefaultGeneratedFile",
+              "description": "API Reference for DefaultGeneratedFile.",
+              "url": "/docs/reference/ai-sdk-core/default-generated-file",
+              "$ref": {
+                "file": "reference/ai-sdk-core/default-generated-file.mdx"
+              }
+            }
+          ],
+          "$id": "en:reference/ai-sdk-core",
+          "$ref": {
+            "metaFile": "reference/ai-sdk-core/meta.json"
+          }
+        },
+        {
+          "type": "folder",
+          "name": "AI SDK UI",
+          "defaultOpen": false,
+          "index": {
+            "$id": "en:reference/ai-sdk-ui/index.mdx",
+            "type": "page",
+            "name": "AI SDK UI",
+            "description": "Reference documentation for the AI SDK UI",
+            "url": "/docs/reference/ai-sdk-ui",
+            "$ref": {
+              "file": "reference/ai-sdk-ui/index.mdx"
+            }
+          },
+          "children": [
+            {
+              "$id": "en:reference/ai-sdk-ui/use-chat.mdx",
+              "type": "page",
+              "name": "useChat",
+              "description": "API reference for the useChat hook.",
+              "url": "/docs/reference/ai-sdk-ui/use-chat",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/use-chat.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/use-completion.mdx",
+              "type": "page",
+              "name": "useCompletion",
+              "description": "API reference for the useCompletion hook.",
+              "url": "/docs/reference/ai-sdk-ui/use-completion",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/use-completion.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/use-object.mdx",
+              "type": "page",
+              "name": "useObject",
+              "description": "API reference for the useObject hook.",
+              "url": "/docs/reference/ai-sdk-ui/use-object",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/use-object.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/use-realtime.mdx",
+              "type": "page",
+              "name": "experimental_useRealtime",
+              "description": "API reference for the experimental_useRealtime hook.",
+              "url": "/docs/reference/ai-sdk-ui/use-realtime",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/use-realtime.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/convert-to-model-messages.mdx",
+              "type": "page",
+              "name": "convertToModelMessages",
+              "description": "Convert useChat messages to ModelMessages for AI functions (API Reference)",
+              "url": "/docs/reference/ai-sdk-ui/convert-to-model-messages",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/convert-to-model-messages.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/prune-messages.mdx",
+              "type": "page",
+              "name": "pruneMessages",
+              "description": "API Reference for pruneMessages.",
+              "url": "/docs/reference/ai-sdk-ui/prune-messages",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/prune-messages.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/create-ui-message-stream.mdx",
+              "type": "page",
+              "name": "createUIMessageStream",
+              "description": "API Reference for createUIMessageStream.",
+              "url": "/docs/reference/ai-sdk-ui/create-ui-message-stream",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/create-ui-message-stream.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/create-ui-message-stream-response.mdx",
+              "type": "page",
+              "name": "createUIMessageStreamResponse",
+              "description": "API Reference for createUIMessageStreamResponse.",
+              "url": "/docs/reference/ai-sdk-ui/create-ui-message-stream-response",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/create-ui-message-stream-response.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/pipe-ui-message-stream-to-response.mdx",
+              "type": "page",
+              "name": "pipeUIMessageStreamToResponse",
+              "description": "Learn to use pipeUIMessageStreamToResponse helper function to pipe streaming data to a ServerResponse object.",
+              "url": "/docs/reference/ai-sdk-ui/pipe-ui-message-stream-to-response",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/pipe-ui-message-stream-to-response.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/read-ui-message-stream.mdx",
+              "type": "page",
+              "name": "readUIMessageStream",
+              "description": "API Reference for readUIMessageStream.",
+              "url": "/docs/reference/ai-sdk-ui/read-ui-message-stream",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/read-ui-message-stream.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/infer-ui-tools.mdx",
+              "type": "page",
+              "name": "InferUITools",
+              "description": "API Reference for InferUITools.",
+              "url": "/docs/reference/ai-sdk-ui/infer-ui-tools",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/infer-ui-tools.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/infer-ui-tool.mdx",
+              "type": "page",
+              "name": "InferUITool",
+              "description": "API Reference for InferUITool.",
+              "url": "/docs/reference/ai-sdk-ui/infer-ui-tool",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/infer-ui-tool.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/mcp-app-renderer.mdx",
+              "type": "page",
+              "name": "experimental_MCPAppRenderer",
+              "description": "API reference for rendering MCP Apps with @ai-sdk/react.",
+              "url": "/docs/reference/ai-sdk-ui/mcp-app-renderer",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/mcp-app-renderer.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-ui/direct-chat-transport.mdx",
+              "type": "page",
+              "name": "DirectChatTransport",
+              "description": "API Reference for the DirectChatTransport class.",
+              "url": "/docs/reference/ai-sdk-ui/direct-chat-transport",
+              "$ref": {
+                "file": "reference/ai-sdk-ui/direct-chat-transport.mdx"
+              }
+            }
+          ],
+          "$id": "en:reference/ai-sdk-ui",
+          "$ref": {
+            "metaFile": "reference/ai-sdk-ui/meta.json"
+          }
+        },
+        {
+          "type": "folder",
+          "name": "AI SDK RSC",
+          "defaultOpen": false,
+          "index": {
+            "$id": "en:reference/ai-sdk-rsc/index.mdx",
+            "type": "page",
+            "name": "AI SDK RSC",
+            "description": "Reference documentation for the AI SDK RSC",
+            "url": "/docs/reference/ai-sdk-rsc",
+            "$ref": {
+              "file": "reference/ai-sdk-rsc/index.mdx"
+            }
+          },
+          "children": [
+            {
+              "$id": "en:reference/ai-sdk-rsc/stream-ui.mdx",
+              "type": "page",
+              "name": "streamUI",
+              "description": "Reference for the streamUI function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/stream-ui",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/stream-ui.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/create-ai.mdx",
+              "type": "page",
+              "name": "createAI",
+              "description": "Reference for the createAI function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/create-ai",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/create-ai.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/create-streamable-ui.mdx",
+              "type": "page",
+              "name": "createStreamableUI",
+              "description": "Reference for the createStreamableUI function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/create-streamable-ui",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/create-streamable-ui.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/create-streamable-value.mdx",
+              "type": "page",
+              "name": "createStreamableValue",
+              "description": "Reference for the createStreamableValue function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/create-streamable-value",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/create-streamable-value.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/read-streamable-value.mdx",
+              "type": "page",
+              "name": "readStreamableValue",
+              "description": "Reference for the readStreamableValue function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/read-streamable-value",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/read-streamable-value.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/get-ai-state.mdx",
+              "type": "page",
+              "name": "getAIState",
+              "description": "Reference for the getAIState function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/get-ai-state",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/get-ai-state.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/get-mutable-ai-state.mdx",
+              "type": "page",
+              "name": "getMutableAIState",
+              "description": "Reference for the getMutableAIState function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/get-mutable-ai-state",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/get-mutable-ai-state.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/use-ai-state.mdx",
+              "type": "page",
+              "name": "useAIState",
+              "description": "Reference for the useAIState function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/use-ai-state",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/use-ai-state.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/use-actions.mdx",
+              "type": "page",
+              "name": "useActions",
+              "description": "Reference for the useActions function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/use-actions",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/use-actions.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/use-ui-state.mdx",
+              "type": "page",
+              "name": "useUIState",
+              "description": "Reference for the useUIState function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/use-ui-state",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/use-ui-state.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/use-streamable-value.mdx",
+              "type": "page",
+              "name": "useStreamableValue",
+              "description": "Reference for the useStreamableValue function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/use-streamable-value",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/use-streamable-value.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-rsc/render.mdx",
+              "type": "page",
+              "name": "render (Removed)",
+              "description": "Reference for the render function from the AI SDK RSC",
+              "url": "/docs/reference/ai-sdk-rsc/render",
+              "$ref": {
+                "file": "reference/ai-sdk-rsc/render.mdx"
+              }
+            }
+          ],
+          "$id": "en:reference/ai-sdk-rsc",
+          "$ref": {
+            "metaFile": "reference/ai-sdk-rsc/meta.json"
+          }
+        },
+        {
+          "type": "folder",
+          "name": "AI SDK Workflow",
+          "defaultOpen": false,
+          "index": {
+            "$id": "en:reference/ai-sdk-workflow/index.mdx",
+            "type": "page",
+            "name": "AI SDK Workflow",
+            "description": "Reference documentation for @ai-sdk/workflow",
+            "url": "/docs/reference/ai-sdk-workflow",
+            "$ref": {
+              "file": "reference/ai-sdk-workflow/index.mdx"
+            }
+          },
+          "children": [
+            {
+              "$id": "en:reference/ai-sdk-workflow/workflow-agent.mdx",
+              "type": "page",
+              "name": "WorkflowAgent",
+              "description": "API Reference for the WorkflowAgent class.",
+              "url": "/docs/reference/ai-sdk-workflow/workflow-agent",
+              "$ref": {
+                "file": "reference/ai-sdk-workflow/workflow-agent.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-workflow/workflow-chat-transport.mdx",
+              "type": "page",
+              "name": "WorkflowChatTransport",
+              "description": "API Reference for the WorkflowChatTransport class.",
+              "url": "/docs/reference/ai-sdk-workflow/workflow-chat-transport",
+              "$ref": {
+                "file": "reference/ai-sdk-workflow/workflow-chat-transport.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-workflow/generate-video.mdx",
+              "type": "page",
+              "name": "generateVideo",
+              "description": "API Reference for durable video generation in workflows.",
+              "url": "/docs/reference/ai-sdk-workflow/generate-video",
+              "$ref": {
+                "file": "reference/ai-sdk-workflow/generate-video.mdx"
+              }
+            }
+          ],
+          "$id": "en:reference/ai-sdk-workflow",
+          "$ref": {
+            "metaFile": "reference/ai-sdk-workflow/meta.json"
+          }
+        },
+        {
+          "type": "folder",
+          "name": "AI SDK Errors",
+          "defaultOpen": false,
+          "index": {
+            "$id": "en:reference/ai-sdk-errors/index.mdx",
+            "type": "page",
+            "name": "AI SDK Errors",
+            "description": "Reference for AI SDK error classes and typed error handling.",
+            "url": "/docs/reference/ai-sdk-errors",
+            "$ref": {
+              "file": "reference/ai-sdk-errors/index.mdx"
+            }
+          },
+          "children": [
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-api-call-error.mdx",
+              "type": "page",
+              "name": "AI_APICallError",
+              "description": "Learn how to fix AI_APICallError",
+              "url": "/docs/reference/ai-sdk-errors/ai-api-call-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-api-call-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-decision-refusal-error.mdx",
+              "type": "page",
+              "name": "AI_DecisionRefusalError",
+              "description": "Identify decision questions that a model declined to answer.",
+              "url": "/docs/reference/ai-sdk-errors/ai-decision-refusal-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-decision-refusal-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-decision-unsupported-question-type-error.mdx",
+              "type": "page",
+              "name": "AI_DecisionUnsupportedQuestionTypeError",
+              "description": "Identify a decision question type that a model does not support.",
+              "url": "/docs/reference/ai-sdk-errors/ai-decision-unsupported-question-type-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-decision-unsupported-question-type-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-download-error.mdx",
+              "type": "page",
+              "name": "AI_DownloadError",
+              "description": "Learn how to fix AI_DownloadError",
+              "url": "/docs/reference/ai-sdk-errors/ai-download-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-download-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-empty-response-body-error.mdx",
+              "type": "page",
+              "name": "AI_EmptyResponseBodyError",
+              "description": "Learn how to fix AI_EmptyResponseBodyError",
+              "url": "/docs/reference/ai-sdk-errors/ai-empty-response-body-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-empty-response-body-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-invalid-argument-error.mdx",
+              "type": "page",
+              "name": "AI_InvalidArgumentError",
+              "description": "Learn how to fix AI_InvalidArgumentError",
+              "url": "/docs/reference/ai-sdk-errors/ai-invalid-argument-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-invalid-argument-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-invalid-data-content-error.mdx",
+              "type": "page",
+              "name": "AI_InvalidDataContentError",
+              "description": "How to fix AI_InvalidDataContentError",
+              "url": "/docs/reference/ai-sdk-errors/ai-invalid-data-content-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-invalid-data-content-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-invalid-message-role-error.mdx",
+              "type": "page",
+              "name": "AI_InvalidMessageRoleError",
+              "description": "Learn how to fix AI_InvalidMessageRoleError",
+              "url": "/docs/reference/ai-sdk-errors/ai-invalid-message-role-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-invalid-message-role-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-invalid-prompt-error.mdx",
+              "type": "page",
+              "name": "AI_InvalidPromptError",
+              "description": "Learn how to fix AI_InvalidPromptError",
+              "url": "/docs/reference/ai-sdk-errors/ai-invalid-prompt-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-invalid-prompt-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-invalid-response-data-error.mdx",
+              "type": "page",
+              "name": "AI_InvalidResponseDataError",
+              "description": "Learn how to fix AI_InvalidResponseDataError",
+              "url": "/docs/reference/ai-sdk-errors/ai-invalid-response-data-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-invalid-response-data-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-invalid-tool-approval-error.mdx",
+              "type": "page",
+              "name": "AI_InvalidToolApprovalError",
+              "description": "Learn how to fix AI_InvalidToolApprovalError",
+              "url": "/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-invalid-tool-approval-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-invalid-tool-approval-signature-error.mdx",
+              "type": "page",
+              "name": "AI_InvalidToolApprovalSignatureError",
+              "description": "Learn how to fix AI_InvalidToolApprovalSignatureError",
+              "url": "/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-signature-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-invalid-tool-approval-signature-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-invalid-tool-input-error.mdx",
+              "type": "page",
+              "name": "AI_InvalidToolInputError",
+              "description": "Learn how to fix AI_InvalidToolInputError",
+              "url": "/docs/reference/ai-sdk-errors/ai-invalid-tool-input-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-invalid-tool-input-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-json-parse-error.mdx",
+              "type": "page",
+              "name": "AI_JSONParseError",
+              "description": "Learn how to fix AI_JSONParseError",
+              "url": "/docs/reference/ai-sdk-errors/ai-json-parse-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-json-parse-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-load-api-key-error.mdx",
+              "type": "page",
+              "name": "AI_LoadAPIKeyError",
+              "description": "Learn how to fix AI_LoadAPIKeyError",
+              "url": "/docs/reference/ai-sdk-errors/ai-load-api-key-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-load-api-key-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-load-setting-error.mdx",
+              "type": "page",
+              "name": "AI_LoadSettingError",
+              "description": "Learn how to fix AI_LoadSettingError",
+              "url": "/docs/reference/ai-sdk-errors/ai-load-setting-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-load-setting-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-message-conversion-error.mdx",
+              "type": "page",
+              "name": "AI_MessageConversionError",
+              "description": "Learn how to fix AI_MessageConversionError",
+              "url": "/docs/reference/ai-sdk-errors/ai-message-conversion-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-message-conversion-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-content-generated-error.mdx",
+              "type": "page",
+              "name": "AI_NoContentGeneratedError",
+              "description": "Learn how to fix AI_NoContentGeneratedError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-content-generated-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-content-generated-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-image-generated-error.mdx",
+              "type": "page",
+              "name": "AI_NoImageGeneratedError",
+              "description": "Learn how to fix AI_NoImageGeneratedError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-image-generated-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-image-generated-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-object-generated-error.mdx",
+              "type": "page",
+              "name": "AI_NoObjectGeneratedError",
+              "description": "Learn how to fix AI_NoObjectGeneratedError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-object-generated-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-object-generated-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-output-generated-error.mdx",
+              "type": "page",
+              "name": "AI_NoOutputGeneratedError",
+              "description": "Learn how to fix AI_NoOutputGeneratedError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-output-generated-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-output-generated-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-speech-generated-error.mdx",
+              "type": "page",
+              "name": "AI_NoSpeechGeneratedError",
+              "description": "Learn how to fix AI_NoSpeechGeneratedError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-speech-generated-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-speech-generated-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-such-model-error.mdx",
+              "type": "page",
+              "name": "AI_NoSuchModelError",
+              "description": "Learn how to fix AI_NoSuchModelError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-such-model-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-such-model-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-such-provider-error.mdx",
+              "type": "page",
+              "name": "AI_NoSuchProviderError",
+              "description": "Learn how to fix AI_NoSuchProviderError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-such-provider-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-such-provider-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-such-provider-reference-error.mdx",
+              "type": "page",
+              "name": "AI_NoSuchProviderReferenceError",
+              "description": "Learn how to fix AI_NoSuchProviderReferenceError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-such-provider-reference-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-such-provider-reference-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-such-tool-error.mdx",
+              "type": "page",
+              "name": "AI_NoSuchToolError",
+              "description": "Learn how to fix AI_NoSuchToolError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-such-tool-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-such-tool-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-transcript-generated-error.mdx",
+              "type": "page",
+              "name": "AI_NoTranscriptGeneratedError",
+              "description": "Learn how to fix AI_NoTranscriptGeneratedError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-transcript-generated-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-transcript-generated-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-translation-generated-error.mdx",
+              "type": "page",
+              "name": "AI_NoTranslationGeneratedError",
+              "description": "Learn how to fix AI_NoTranslationGeneratedError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-translation-generated-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-translation-generated-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-no-video-generated-error.mdx",
+              "type": "page",
+              "name": "AI_NoVideoGeneratedError",
+              "description": "Learn how to fix AI_NoVideoGeneratedError",
+              "url": "/docs/reference/ai-sdk-errors/ai-no-video-generated-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-no-video-generated-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-retry-error.mdx",
+              "type": "page",
+              "name": "AI_RetryError",
+              "description": "Learn how to fix AI_RetryError",
+              "url": "/docs/reference/ai-sdk-errors/ai-retry-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-retry-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-stream-provider-error.mdx",
+              "type": "page",
+              "name": "AI_StreamProviderError",
+              "description": "Learn how to handle AI_StreamProviderError",
+              "url": "/docs/reference/ai-sdk-errors/ai-stream-provider-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-stream-provider-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error.mdx",
+              "type": "page",
+              "name": "AI_TooManyEmbeddingValuesForCallError",
+              "description": "Learn how to fix AI_TooManyEmbeddingValuesForCallError",
+              "url": "/docs/reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-tool-call-not-found-for-approval-error.mdx",
+              "type": "page",
+              "name": "AI_ToolCallNotFoundForApprovalError",
+              "description": "Learn how to fix AI_ToolCallNotFoundForApprovalError",
+              "url": "/docs/reference/ai-sdk-errors/ai-tool-call-not-found-for-approval-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-tool-call-not-found-for-approval-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-tool-call-repair-error.mdx",
+              "type": "page",
+              "name": "ToolCallRepairError",
+              "description": "Learn how to fix AI SDK ToolCallRepairError",
+              "url": "/docs/reference/ai-sdk-errors/ai-tool-call-repair-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-tool-call-repair-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-tool-choice-violation-error.mdx",
+              "type": "page",
+              "name": "ToolChoiceViolationError",
+              "description": "Learn how to fix AI SDK ToolChoiceViolationError",
+              "url": "/docs/reference/ai-sdk-errors/ai-tool-choice-violation-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-tool-choice-violation-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-type-validation-error.mdx",
+              "type": "page",
+              "name": "AI_TypeValidationError",
+              "description": "Learn how to fix AI_TypeValidationError",
+              "url": "/docs/reference/ai-sdk-errors/ai-type-validation-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-type-validation-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-ui-message-stream-error.mdx",
+              "type": "page",
+              "name": "AI_UIMessageStreamError",
+              "description": "Learn how to fix AI_UIMessageStreamError",
+              "url": "/docs/reference/ai-sdk-errors/ai-ui-message-stream-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-ui-message-stream-error.mdx"
+              }
+            },
+            {
+              "$id": "en:reference/ai-sdk-errors/ai-unsupported-functionality-error.mdx",
+              "type": "page",
+              "name": "AI_UnsupportedFunctionalityError",
+              "description": "Learn how to fix AI_UnsupportedFunctionalityError",
+              "url": "/docs/reference/ai-sdk-errors/ai-unsupported-functionality-error",
+              "$ref": {
+                "file": "reference/ai-sdk-errors/ai-unsupported-functionality-error.mdx"
+              }
+            }
+          ],
+          "$id": "en:reference/ai-sdk-errors",
+          "$ref": {
+            "metaFile": "reference/ai-sdk-errors/meta.json"
+          }
+        },
+        {
+          "type": "folder",
+          "name": "AI SDK TUI",
+          "defaultOpen": false,
+          "index": {
+            "$id": "en:reference/ai-sdk-tui/index.mdx",
+            "type": "page",
+            "name": "AI SDK TUI",
+            "description": "Reference documentation for @ai-sdk/tui",
+            "url": "/docs/reference/ai-sdk-tui",
+            "$ref": {
+              "file": "reference/ai-sdk-tui/index.mdx"
+            }
+          },
+          "children": [
+            {
+              "$id": "en:reference/ai-sdk-tui/run-agent-tui.mdx",
+              "type": "page",
+              "name": "runAgentTUI",
+              "description": "API Reference for the runAgentTUI function.",
+              "url": "/docs/reference/ai-sdk-tui/run-agent-tui",
+              "$ref": {
+                "file": "reference/ai-sdk-tui/run-agent-tui.mdx"
+              }
+            }
+          ],
+          "$id": "en:reference/ai-sdk-tui",
+          "$ref": {
+            "metaFile": "reference/ai-sdk-tui/meta.json"
+          }
+        }
+      ],
+      "$id": "en:reference",
+      "$ref": {
+        "metaFile": "reference/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "Migration Guides",
+      "defaultOpen": false,
+      "index": {
+        "$id": "en:migration-guides/index.mdx",
+        "type": "page",
+        "name": "Migration Guides",
+        "description": "Learn how to upgrade between Vercel AI versions.",
+        "url": "/docs/migration-guides",
+        "$ref": {
+          "file": "migration-guides/index.mdx"
+        }
+      },
+      "children": [
+        {
+          "$id": "en:migration-guides/versioning.mdx",
+          "type": "page",
+          "name": "Versioning",
+          "description": "Understand how the AI SDK approaches versioning.",
+          "url": "/docs/migration-guides/versioning",
+          "$ref": {
+            "file": "migration-guides/versioning.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-7-0.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 6.x to 7.0",
+          "description": "Learn how to upgrade AI SDK 6.x to 7.0.",
+          "url": "/docs/migration-guides/migration-guide-7-0",
+          "$ref": {
+            "file": "migration-guides/migration-guide-7-0.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-6-0.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 5.x to 6.0",
+          "description": "Learn how to upgrade AI SDK 5.x to 6.0.",
+          "url": "/docs/migration-guides/migration-guide-6-0",
+          "$ref": {
+            "file": "migration-guides/migration-guide-6-0.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-5-0-data.mdx",
+          "type": "page",
+          "name": "Migrate Your Data to AI SDK 5.0",
+          "description": "Learn how to migrate your persisted messages and chat data from AI SDK 4.x to 5.0.",
+          "url": "/docs/migration-guides/migration-guide-5-0-data",
+          "$ref": {
+            "file": "migration-guides/migration-guide-5-0-data.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-5-0.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 4.x to 5.0",
+          "description": "Learn how to upgrade AI SDK 4.x to 5.0.",
+          "url": "/docs/migration-guides/migration-guide-5-0",
+          "$ref": {
+            "file": "migration-guides/migration-guide-5-0.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-4-2.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 4.1 to 4.2",
+          "description": "Learn how to upgrade AI SDK 4.1 to 4.2.",
+          "url": "/docs/migration-guides/migration-guide-4-2",
+          "$ref": {
+            "file": "migration-guides/migration-guide-4-2.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-4-1.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 4.0 to 4.1",
+          "description": "Learn how to upgrade AI SDK 4.0 to 4.1.",
+          "url": "/docs/migration-guides/migration-guide-4-1",
+          "$ref": {
+            "file": "migration-guides/migration-guide-4-1.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-4-0.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 3.4 to 4.0",
+          "description": "Learn how to upgrade AI SDK 3.4 to 4.0.",
+          "url": "/docs/migration-guides/migration-guide-4-0",
+          "$ref": {
+            "file": "migration-guides/migration-guide-4-0.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-3-4.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 3.3 to 3.4",
+          "description": "Learn how to upgrade AI SDK 3.3 to 3.4.",
+          "url": "/docs/migration-guides/migration-guide-3-4",
+          "$ref": {
+            "file": "migration-guides/migration-guide-3-4.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-3-3.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 3.2 to 3.3",
+          "description": "Learn how to upgrade AI SDK 3.2 to 3.3.",
+          "url": "/docs/migration-guides/migration-guide-3-3",
+          "$ref": {
+            "file": "migration-guides/migration-guide-3-3.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-3-2.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 3.1 to 3.2",
+          "description": "Learn how to upgrade AI SDK 3.1 to 3.2.",
+          "url": "/docs/migration-guides/migration-guide-3-2",
+          "$ref": {
+            "file": "migration-guides/migration-guide-3-2.mdx"
+          }
+        },
+        {
+          "$id": "en:migration-guides/migration-guide-3-1.mdx",
+          "type": "page",
+          "name": "Migrate AI SDK 3.0 to 3.1",
+          "description": "Learn how to upgrade AI SDK 3.0 to 3.1.",
+          "url": "/docs/migration-guides/migration-guide-3-1",
+          "$ref": {
+            "file": "migration-guides/migration-guide-3-1.mdx"
+          }
+        }
+      ],
+      "$id": "en:migration-guides",
+      "$ref": {
+        "metaFile": "migration-guides/meta.json"
+      }
+    },
+    {
+      "type": "folder",
+      "name": "Troubleshooting",
+      "defaultOpen": false,
+      "index": {
+        "$id": "en:troubleshooting/index.mdx",
+        "type": "page",
+        "name": "Troubleshooting",
+        "description": "Troubleshooting information for common issues encountered with the AI SDK.",
+        "url": "/docs/troubleshooting",
+        "$ref": {
+          "file": "troubleshooting/index.mdx"
+        }
+      },
+      "children": [
+        {
+          "$id": "en:troubleshooting/azure-stream-slow.mdx",
+          "type": "page",
+          "name": "Azure OpenAI Slow to Stream",
+          "description": "Learn to troubleshoot Azure OpenAI slow to stream issues.",
+          "url": "/docs/troubleshooting/azure-stream-slow",
+          "$ref": {
+            "file": "troubleshooting/azure-stream-slow.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/server-actions-in-client-components.mdx",
+          "type": "page",
+          "name": "Server Actions in Client Components",
+          "description": "Troubleshooting errors related to server actions in client components.",
+          "url": "/docs/troubleshooting/server-actions-in-client-components",
+          "$ref": {
+            "file": "troubleshooting/server-actions-in-client-components.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/strange-stream-output.mdx",
+          "type": "page",
+          "name": "useChat/useCompletion stream output contains 0:... instead of text",
+          "description": "How to fix strange stream output in the UI",
+          "url": "/docs/troubleshooting/strange-stream-output",
+          "$ref": {
+            "file": "troubleshooting/strange-stream-output.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/streamable-ui-errors.mdx",
+          "type": "page",
+          "name": "Streamable UI Errors",
+          "description": "Troubleshooting errors related to streamable UI.",
+          "url": "/docs/troubleshooting/streamable-ui-errors",
+          "$ref": {
+            "file": "troubleshooting/streamable-ui-errors.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/tool-invocation-missing-result.mdx",
+          "type": "page",
+          "name": "Tool Invocation Missing Result Error",
+          "description": "How to fix the \"ToolInvocation must have a result\" error when using tools without execute functions",
+          "url": "/docs/troubleshooting/tool-invocation-missing-result",
+          "$ref": {
+            "file": "troubleshooting/tool-invocation-missing-result.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/streaming-not-working-when-deployed.mdx",
+          "type": "page",
+          "name": "Streaming Not Working When Deployed",
+          "description": "Troubleshooting streaming issues in deployed apps.",
+          "url": "/docs/troubleshooting/streaming-not-working-when-deployed",
+          "$ref": {
+            "file": "troubleshooting/streaming-not-working-when-deployed.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/streaming-not-working-when-proxied.mdx",
+          "type": "page",
+          "name": "Streaming Not Working When Proxied",
+          "description": "Troubleshooting streaming issues in proxied apps.",
+          "url": "/docs/troubleshooting/streaming-not-working-when-proxied",
+          "$ref": {
+            "file": "troubleshooting/streaming-not-working-when-proxied.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/timeout-on-vercel.mdx",
+          "type": "page",
+          "name": "Getting Timeouts When Deploying on Vercel",
+          "description": "Learn how to fix timeouts and cut off responses when deploying to Vercel.",
+          "url": "/docs/troubleshooting/timeout-on-vercel",
+          "$ref": {
+            "file": "troubleshooting/timeout-on-vercel.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/unclosed-streams.mdx",
+          "type": "page",
+          "name": "Unclosed Streams",
+          "description": "Troubleshooting errors related to unclosed streams.",
+          "url": "/docs/troubleshooting/unclosed-streams",
+          "$ref": {
+            "file": "troubleshooting/unclosed-streams.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/use-chat-failed-to-parse-stream.mdx",
+          "type": "page",
+          "name": "useChat Failed to Parse Stream",
+          "description": "Troubleshooting errors related to the Use Chat Failed to Parse Stream error.",
+          "url": "/docs/troubleshooting/use-chat-failed-to-parse-stream",
+          "$ref": {
+            "file": "troubleshooting/use-chat-failed-to-parse-stream.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/client-stream-error.mdx",
+          "type": "page",
+          "name": "Server Action Plain Objects Error",
+          "description": "Troubleshooting errors related to using AI SDK Core functions with Server Actions.",
+          "url": "/docs/troubleshooting/client-stream-error",
+          "$ref": {
+            "file": "troubleshooting/client-stream-error.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/use-chat-tools-no-response.mdx",
+          "type": "page",
+          "name": "useChat No Response",
+          "description": "Troubleshooting errors related to the Use Chat Failed to Parse Stream error.",
+          "url": "/docs/troubleshooting/use-chat-tools-no-response",
+          "$ref": {
+            "file": "troubleshooting/use-chat-tools-no-response.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/use-chat-custom-request-options.mdx",
+          "type": "page",
+          "name": "Custom headers, body, and credentials not working with useChat",
+          "description": "Troubleshooting errors related to custom request configuration in useChat hook",
+          "url": "/docs/troubleshooting/use-chat-custom-request-options",
+          "$ref": {
+            "file": "troubleshooting/use-chat-custom-request-options.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/typescript-performance-zod.mdx",
+          "type": "page",
+          "name": "TypeScript performance issues with Zod and AI SDK 5",
+          "description": "Troubleshooting TypeScript server crashes and slow performance when using Zod with AI SDK 5",
+          "url": "/docs/troubleshooting/typescript-performance-zod",
+          "$ref": {
+            "file": "troubleshooting/typescript-performance-zod.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/use-chat-an-error-occurred.mdx",
+          "type": "page",
+          "name": "useChat \"An error occurred\"",
+          "description": "Troubleshooting errors related to the \"An error occurred\" error in useChat.",
+          "url": "/docs/troubleshooting/use-chat-an-error-occurred",
+          "$ref": {
+            "file": "troubleshooting/use-chat-an-error-occurred.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/repeated-assistant-messages.mdx",
+          "type": "page",
+          "name": "Repeated assistant messages in useChat",
+          "description": "Troubleshooting duplicate assistant messages when using useChat with streamText",
+          "url": "/docs/troubleshooting/repeated-assistant-messages",
+          "$ref": {
+            "file": "troubleshooting/repeated-assistant-messages.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/stream-abort-handling.mdx",
+          "type": "page",
+          "name": "onEnd not called when stream is aborted",
+          "description": "Troubleshooting onEnd callback not executing when streams are aborted with toUIMessageStream",
+          "url": "/docs/troubleshooting/stream-abort-handling",
+          "$ref": {
+            "file": "troubleshooting/stream-abort-handling.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/tool-calling-with-structured-outputs.mdx",
+          "type": "page",
+          "name": "Tool calling with structured outputs",
+          "description": "Troubleshooting tool calling when combined with structured output generation",
+          "url": "/docs/troubleshooting/tool-calling-with-structured-outputs",
+          "$ref": {
+            "file": "troubleshooting/tool-calling-with-structured-outputs.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/abort-breaks-resumable-streams.mdx",
+          "type": "page",
+          "name": "Abort and resumable streams",
+          "description": "Troubleshooting abort and stop behavior with resumable streams",
+          "url": "/docs/troubleshooting/abort-breaks-resumable-streams",
+          "$ref": {
+            "file": "troubleshooting/abort-breaks-resumable-streams.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/stream-text-not-working.mdx",
+          "type": "page",
+          "name": "streamText fails silently",
+          "description": "Troubleshooting errors related to the streamText function not working.",
+          "url": "/docs/troubleshooting/stream-text-not-working",
+          "$ref": {
+            "file": "troubleshooting/stream-text-not-working.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/streaming-status-delay.mdx",
+          "type": "page",
+          "name": "Streaming Status Shows But No Text Appears",
+          "description": "Why useChat shows \"streaming\" status without any visible content",
+          "url": "/docs/troubleshooting/streaming-status-delay",
+          "$ref": {
+            "file": "troubleshooting/streaming-status-delay.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/use-chat-stale-body-data.mdx",
+          "type": "page",
+          "name": "Stale body values with useChat",
+          "description": "Troubleshooting stale values when passing information via the body parameter of useChat",
+          "url": "/docs/troubleshooting/use-chat-stale-body-data",
+          "$ref": {
+            "file": "troubleshooting/use-chat-stale-body-data.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/ontoolcall-type-narrowing.mdx",
+          "type": "page",
+          "name": "Type Error with onToolCall",
+          "description": "How to handle TypeScript type errors when using the onToolCall callback",
+          "url": "/docs/troubleshooting/ontoolcall-type-narrowing",
+          "$ref": {
+            "file": "troubleshooting/ontoolcall-type-narrowing.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/unsupported-model-version.mdx",
+          "type": "page",
+          "name": "Unsupported model version error",
+          "description": "Troubleshooting the AI_UnsupportedModelVersionError when migrating to AI SDK 5",
+          "url": "/docs/troubleshooting/unsupported-model-version",
+          "$ref": {
+            "file": "troubleshooting/unsupported-model-version.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/no-object-generated-content-filter.mdx",
+          "type": "page",
+          "name": "Object generation failed with OpenAI",
+          "description": "Troubleshooting NoObjectGeneratedError with finish-reason content-filter caused by incompatible Zod schema types when using OpenAI structured outputs",
+          "url": "/docs/troubleshooting/no-object-generated-content-filter",
+          "$ref": {
+            "file": "troubleshooting/no-object-generated-content-filter.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/missing-tool-results-error.mdx",
+          "type": "page",
+          "name": "Missing Tool Results Error",
+          "description": "How to fix the \"Tool results are missing for tool calls\" error when using the AI SDK.",
+          "url": "/docs/troubleshooting/missing-tool-results-error",
+          "$ref": {
+            "file": "troubleshooting/missing-tool-results-error.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/model-is-not-assignable-to-type.mdx",
+          "type": "page",
+          "name": "Model is not assignable to type \"LanguageModelV1\"",
+          "description": "Troubleshooting errors related to incompatible models.",
+          "url": "/docs/troubleshooting/model-is-not-assignable-to-type",
+          "$ref": {
+            "file": "troubleshooting/model-is-not-assignable-to-type.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/typescript-cannot-find-namespace-jsx.mdx",
+          "type": "page",
+          "name": "TypeScript error \"Cannot find namespace 'JSX'\"",
+          "description": "Troubleshooting errors related to TypeScript and JSX.",
+          "url": "/docs/troubleshooting/typescript-cannot-find-namespace-jsx",
+          "$ref": {
+            "file": "troubleshooting/typescript-cannot-find-namespace-jsx.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/react-maximum-update-depth-exceeded.mdx",
+          "type": "page",
+          "name": "React error \"Maximum update depth exceeded\"",
+          "description": "Troubleshooting errors related to the \"Maximum update depth exceeded\" error.",
+          "url": "/docs/troubleshooting/react-maximum-update-depth-exceeded",
+          "$ref": {
+            "file": "troubleshooting/react-maximum-update-depth-exceeded.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/jest-cannot-find-module-ai-rsc.mdx",
+          "type": "page",
+          "name": "Jest: cannot find module '@ai-sdk/rsc'",
+          "description": "Troubleshooting AI SDK errors related to the Jest: cannot find module '@ai-sdk/rsc' error",
+          "url": "/docs/troubleshooting/jest-cannot-find-module-ai-rsc",
+          "$ref": {
+            "file": "troubleshooting/jest-cannot-find-module-ai-rsc.mdx"
+          }
+        },
+        {
+          "$id": "en:troubleshooting/high-memory-usage-with-images.mdx",
+          "type": "page",
+          "name": "High memory usage when processing many images",
+          "description": "Troubleshooting high memory usage when using generateText or streamText with many images",
+          "url": "/docs/troubleshooting/high-memory-usage-with-images",
+          "$ref": {
+            "file": "troubleshooting/high-memory-usage-with-images.mdx"
+          }
+        }
+      ],
+      "$id": "en:troubleshooting",
+      "$ref": {
+        "metaFile": "troubleshooting/meta.json"
+      }
+    }
+  ]
+}
