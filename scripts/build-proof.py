@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 node=os.environ.get('AI_SDK_NODE','node');force=['--force'] if '--force' in sys.argv else []
 phases=[]
 def run(name,args):
- start=time.perf_counter();subprocess.run(args,cwd=ROOT,check=True);phases.append({'name':name,'elapsed_s':time.perf_counter()-start})
+ start=time.perf_counter();subprocess.run(args,cwd=ROOT,env={**os.environ,'NODE_ENV':'production'},check=True);phases.append({'name':name,'elapsed_s':time.perf_counter()-start})
 run('island compilation',[node,'scripts/build-islands.mjs',*force])
 if (ROOT/'sources').exists():
  run('MDX compatibility and SSR',[node,'scripts/render-proof.mjs',*force])

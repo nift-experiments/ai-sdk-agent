@@ -43,3 +43,7 @@ Server-only frozen shells omitted controls added after upstream hydration. Freez
 ### A4 preparation findings
 
 Authored-file, synchronized-file and published-route counts differ even in one corpus. Preserve original ordered source paths and local pure sync transforms; never carry a network/Git-history mutation stage into routine builds. Proposed guidance: “Store explicit authored-to-rendered-to-route provenance, account for dropped legacy landing pages, and preserve output timestamps when bytes are unchanged. Validate cached artifact existence and hashes; a matching input key alone does not prove publication inputs are intact.” Pin external image bytes as maintained inputs and reject unpinned renderer network requests. Full shell/navigation maintenance remains a separate acceptance gate from successful document-body rendering.
+
+### A4 publication findings
+
+Record pinned internal UI bindings separately from public APIs. Serialize heading titles as structured React children: HTML-only labels broke desktop text extraction while mobile rendering worked. Test both modes. Define necessary production constants outside the original framework and inspect console failures. Compare document/social titles including section-label rules. Browser visible-text checks should exclude inert island-props scripts; separately verify exact code and hidden metadata ownership. Keep UI/transport/backend acceptance separate.

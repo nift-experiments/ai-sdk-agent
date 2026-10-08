@@ -1,0 +1,14 @@
+[
+  {
+    "project": "ai-sdk-agent",
+    "case": "current page and literal template syntax",
+    "incremental_forced_equal": true,
+    "incremental_s": 2.0962169780395925,
+    "changed_public_files": 1
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "current metadata update and removal",
+    "incremental_forced_equal": true
+  }
+]

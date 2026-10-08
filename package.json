@@ -7,15 +7,17 @@
   },
   "packageManager": "pnpm@11.23.0",
   "dependencies": {
+    "@shikijs/langs": "3.23.0",
+    "@vercel/geistdocs": "2.9.0",
+    "clsx": "2.1.1",
+    "fumadocs-core": "16.2.2",
+    "fumadocs-ui": "16.2.2",
+    "lucide-react": "0.555.0",
+    "motion": "12.42.2",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "@vercel/geistdocs": "2.9.0",
     "shiki": "3.23.0",
-    "@shikijs/langs": "3.23.0",
-    "motion": "12.42.2",
-    "streamdown": "2.5.0",
-    "clsx": "2.1.1",
-    "lucide-react": "0.555.0"
+    "streamdown": "2.5.0"
   },
   "devDependencies": {
     "esbuild": "0.28.2"
