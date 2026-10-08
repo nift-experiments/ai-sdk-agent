@@ -1,14 +1,21 @@
-# Migration project
+# AI SDK / Nift migration experiment
 
-This project is being migrated to Nift. This README is a concise operational
-entry point; the full method is in MIGRATION.md.
+Source model: maintained rendered HTML and explicit metadata/React mount props.
 
-- Status: see `investigation/STATUS.md`.
-- Upstream reference: see `investigation/BASELINE.md`.
-- Source model (authored / rendered / hybrid): see `investigation/BASELINE.md`.
-- Production-equivalent build: <record command in investigation/BASELINE.md>.
-- Validation / parity command: <record command in investigation/PARITY-CONTRACT.md>.
-- Method: `MIGRATION.md`. Current state: `HANDOVER.md`. Agent instructions: `AGENTS.md`.
+A0–A2 are accepted. A3 currently publishes seven representative routes. This is an architecture proof, not the completed migration or final benchmark. The upstream reference is pinned to `3ebefff610f96892c50be48cf1838c453e2349f7`; frozen output/history/evidence stays outside this repository.
 
-The initial Nift scaffold is placeholder material and must not be counted as
-migrated content in parity or benchmark claims.
+Use Node 24.21.0, pnpm 11.23.0, Nift 4.8.0 and Python with `requirements.txt` installed. Install dependencies with `pnpm install --frozen-lockfile`. Run:
+
+```sh
+python3 scripts/build-proof.py
+python3 scripts/build-proof.py --force
+nift status
+```
+
+Set `AI_SDK_NODE` when the pinned Node binary is not first on PATH. The project command prepares its owned inputs before Nift composition. `nift build` alone composes already prepared HTML.
+
+The agent path invokes no Markdown/MDX compiler. It refreshes isolated React mount markup from maintained HTML/JSON when component inputs change, then composes that HTML. Markdown packages can exist as unused transitive Geistdocs dependencies; they are not part of the routine rendered-source pipeline.
+
+The UI ports replace only corpus-required Next link/image/English locale behavior. Independently bundled React islands retain the stateful hero, provider/model examples and simulated generation. No Next runtime appears in the island artifact graph. Geistdocs has a transitive Next peer in the installation lockfile; this prototype does not run it.
+
+Catalog/media bytes are maintained static assets with frozen provenance. Normal proof builds make no AI, feedback or analytics requests. Full search/navigation, ancillary routes, OG runtime behavior, corpus migration, publication/browser parity, clean-checkout verification and final benchmarks remain open. Read `HANDOVER.md`, `investigation/STATUS.md`, and the living migration-init review before continuing.

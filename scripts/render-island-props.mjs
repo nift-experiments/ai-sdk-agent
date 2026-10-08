@@ -1,0 +1,11 @@
+import {build} from 'esbuild';
+import {readFile,writeFile} from 'node:fs/promises';
+import {createRequire} from 'node:module';
+import path from 'node:path';
+const root=process.cwd();
+await build({entryPoints:['ui/island-server.tsx'],outfile:'generated/island-server.cjs',bundle:true,platform:'node',format:'cjs',external:['react','react/*','react-dom','react-dom/*'],alias:{'next/link':root+'/ui/adapters/link.tsx','next/navigation':root+'/ui/adapters/navigation.ts','next/image':root+'/ui/adapters/image.tsx'}});
+const require=createRequire(import.meta.url);
+const {islandMarkup}=require(root+'/generated/island-server.cjs');
+const requests=JSON.parse(await readFile(process.argv[2],'utf8'));
+const output=requests.map(x=>islandMarkup(x.name,x.props,x.prefix));
+await writeFile(process.argv[3],JSON.stringify(output));
